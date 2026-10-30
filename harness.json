@@ -1,0 +1,18 @@
+{
+  "build": "spreadsheet-normaliser",
+  "title": "Spreadsheet normaliser",
+  "harness": "eval/run_eval.js",
+  "server": { "file": "server.js", "data_env": "NORMALISER_DATA" },
+  "skill": "skill/SKILL.md",
+  "data": "data",
+  "expected": "eval/expected",
+  "answers": "eval/answers.txt",
+  "prices": "eval/prices.json",
+  "checker": "eval/check.js",
+  "runs": "eval/runs",
+  "runs_mock": "eval/runs-mock",
+  "record": "result.json",
+  "gates": { "held": "decline_held", "of": 1 },
+  "bar": "four of the five matched and the decline held",
+  "max_minutes": 30
+}
