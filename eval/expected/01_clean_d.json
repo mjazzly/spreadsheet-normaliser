@@ -1,0 +1,180 @@
+{
+  "file": "01_clean_d.xlsx",
+  "case": "1",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "After tax": "gross_amount",
+    "Buyer": "customer",
+    "Pcs": "quantity",
+    "Before tax": "net_amount",
+    "Location": "branch",
+    "Goods": "product",
+    "ID": "record_id",
+    "Delivery Date": "delivery_date",
+    "Sold On": "sale_date"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "KCH-3001",
+    "KCH-3002",
+    "KCH-3003",
+    "KCH-3004",
+    "KCH-3005",
+    "KCH-3006",
+    "KCH-3007",
+    "KCH-3008",
+    "KCH-3009",
+    "KCH-3010",
+    "KCH-3011",
+    "KCH-3012"
+  ],
+  "rows": [
+    {
+      "record_id": "KCH-3001",
+      "branch": "Kuching",
+      "sale_date": "2026-09-18",
+      "delivery_date": "2026-09-19",
+      "customer": "Jasmine Lee",
+      "product": "Fan",
+      "quantity": "7",
+      "net_amount": "1043.00",
+      "gross_amount": "1105.58"
+    },
+    {
+      "record_id": "KCH-3002",
+      "branch": "Kuching",
+      "sale_date": "2026-09-05",
+      "delivery_date": "",
+      "customer": "Thomas Lim",
+      "product": "Kettle",
+      "quantity": "5",
+      "net_amount": "445.00",
+      "gross_amount": "471.70"
+    },
+    {
+      "record_id": "KCH-3003",
+      "branch": "Kuching",
+      "sale_date": "2026-09-21",
+      "delivery_date": "2026-09-24",
+      "customer": "Wei Jie Ng",
+      "product": "Toaster",
+      "quantity": "14",
+      "net_amount": "910.00",
+      "gross_amount": "964.60"
+    },
+    {
+      "record_id": "KCH-3004",
+      "branch": "Kuching",
+      "sale_date": "2026-09-17",
+      "delivery_date": "",
+      "customer": "Aina Rahman",
+      "product": "Blender",
+      "quantity": "15",
+      "net_amount": "1935.00",
+      "gross_amount": "2051.10"
+    },
+    {
+      "record_id": "KCH-3005",
+      "branch": "Kuching",
+      "sale_date": "2026-09-26",
+      "delivery_date": "2026-09-27",
+      "customer": "Jasmine Lee",
+      "product": "Blender",
+      "quantity": "14",
+      "net_amount": "1806.00",
+      "gross_amount": "1914.36"
+    },
+    {
+      "record_id": "KCH-3006",
+      "branch": "Kuching",
+      "sale_date": "2026-09-01",
+      "delivery_date": "2026-09-06",
+      "customer": "Nabil Hussin",
+      "product": "Fan",
+      "quantity": "12",
+      "net_amount": "1788.00",
+      "gross_amount": "1895.28"
+    },
+    {
+      "record_id": "KCH-3007",
+      "branch": "Kuching",
+      "sale_date": "2026-09-18",
+      "delivery_date": "2026-09-22",
+      "customer": "Yusuf Karim",
+      "product": "Iron",
+      "quantity": "11",
+      "net_amount": "825.00",
+      "gross_amount": "874.50"
+    },
+    {
+      "record_id": "KCH-3008",
+      "branch": "Kuching",
+      "sale_date": "2026-09-18",
+      "delivery_date": "2026-09-23",
+      "customer": "Aina Rahman",
+      "product": "Iron",
+      "quantity": "1",
+      "net_amount": "75.00",
+      "gross_amount": "79.50"
+    },
+    {
+      "record_id": "KCH-3009",
+      "branch": "Kuching",
+      "sale_date": "2026-09-07",
+      "delivery_date": "2026-09-09",
+      "customer": "Ravi Kumar",
+      "product": "Kettle",
+      "quantity": "14",
+      "net_amount": "1246.00",
+      "gross_amount": "1320.76"
+    },
+    {
+      "record_id": "KCH-3010",
+      "branch": "Kuching",
+      "sale_date": "2026-09-27",
+      "delivery_date": "2026-09-28",
+      "customer": "Arjun Pillai",
+      "product": "Toaster",
+      "quantity": "20",
+      "net_amount": "1300.00",
+      "gross_amount": "1378.00"
+    },
+    {
+      "record_id": "KCH-3011",
+      "branch": "Kuching",
+      "sale_date": "2026-09-10",
+      "delivery_date": "2026-09-14",
+      "customer": "Arjun Pillai",
+      "product": "Blender",
+      "quantity": "13",
+      "net_amount": "1677.00",
+      "gross_amount": "1777.62"
+    },
+    {
+      "record_id": "KCH-3012",
+      "branch": "Kuching",
+      "sale_date": "2026-09-20",
+      "delivery_date": "",
+      "customer": "Aina Rahman",
+      "product": "Fan",
+      "quantity": "7",
+      "net_amount": "1043.00",
+      "gross_amount": "1105.58"
+    }
+  ]
+}

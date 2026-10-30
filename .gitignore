@@ -1,0 +1,20 @@
+node_modules/
+.env
+eval/runs/
+eval/runs-mock/
+
+# state written by the server when it runs on data/
+data/merged.csv
+data/decision_log.csv
+data/held_rows.csv
+data/held_columns.csv
+data/held/
+data/summary_*.md
+
+# never in the public repo
+.DS_Store
+*.pdf
+*.tar.gz
+
+# the working brief stays local
+BRIEF.md

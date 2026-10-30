@@ -1,0 +1,23 @@
+{
+  "name": "spreadsheet-normaliser",
+  "version": "1.0.0",
+  "description": "Tool server and eval harness for the spreadsheet normaliser: the model proposes how each file's columns map onto one schema and gives its reason; the code applies it, parses every value against its type, and stops at four gates rather than guess. Synthetic data only.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cases": "node scripts/make_cases.js",
+    "mock": "node eval/run_eval.js --mock",
+    "eval": "node eval/run_eval.js"
+  },
+  "author": "Megat Jazly",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "exceljs": "4.4.0",
+    "zod": "3.25.76"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "file": "02_stray_b.xlsx",
+  "case": "2",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "Record ID": "record_id",
+    "Branch": "branch",
+    "Transaction Date": "sale_date",
+    "Delivery Date": "delivery_date",
+    "Customer Name": "customer",
+    "Product": "product",
+    "Quantity": "quantity",
+    "Net (RM)": "net_amount",
+    "Gross (RM)": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 2,
+    "totals": 1
+  },
+  "record_ids": [
+    "JHB-2025",
+    "JHB-2026",
+    "JHB-2027",
+    "JHB-2028",
+    "JHB-2029",
+    "JHB-2030",
+    "JHB-2031",
+    "JHB-2032",
+    "JHB-2033",
+    "JHB-2034",
+    "JHB-2035",
+    "JHB-2036"
+  ],
+  "rows": [
+    {
+      "record_id": "JHB-2025",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-26",
+      "delivery_date": "",
+      "customer": "Yusuf Karim",
+      "product": "Fan",
+      "quantity": "18",
+      "net_amount": "2682.00",
+      "gross_amount": "2842.92"
+    },
+    {
+      "record_id": "JHB-2026",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-19",
+      "delivery_date": "2026-09-21",
+      "customer": "Mei Ling Chua",
+      "product": "Kettle",
+      "quantity": "20",
+      "net_amount": "1780.00",
+      "gross_amount": "1886.80"
+    },
+    {
+      "record_id": "JHB-2027",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-28",
+      "delivery_date": "",
+      "customer": "Yusuf Karim",
+      "product": "Toaster",
+      "quantity": "4",
+      "net_amount": "260.00",
+      "gross_amount": "275.60"
+    },
+    {
+      "record_id": "JHB-2028",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-16",
+      "delivery_date": "2026-09-20",
+      "customer": "Hafiz Osman",
+      "product": "Blender",
+      "quantity": "15",
+      "net_amount": "1935.00",
+      "gross_amount": "2051.10"
+    },
+    {
+      "record_id": "JHB-2029",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-01",
+      "delivery_date": "2026-09-02",
+      "customer": "Liam Wong",
+      "product": "Kettle",
+      "quantity": "19",
+      "net_amount": "1691.00",
+      "gross_amount": "1792.46"
+    },
+    {
+      "record_id": "JHB-2030",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-08",
+      "delivery_date": "2026-09-11",
+      "customer": "Uma Devi",
+      "product": "Iron",
+      "quantity": "6",
+      "net_amount": "450.00",
+      "gross_amount": "477.00"
+    },
+    {
+      "record_id": "JHB-2031",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-24",
+      "delivery_date": "2026-09-26",
+      "customer": "Daniel Tan",
+      "product": "Blender",
+      "quantity": "20",
+      "net_amount": "2580.00",
+      "gross_amount": "2734.80"
+    },
+    {
+      "record_id": "JHB-2032",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-03",
+      "delivery_date": "2026-09-05",
+      "customer": "Thomas Lim",
+      "product": "Fan",
+      "quantity": "13",
+      "net_amount": "1937.00",
+      "gross_amount": "2053.22"
+    },
+    {
+      "record_id": "JHB-2033",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-13",
+      "delivery_date": "2026-09-14",
+      "customer": "Wei Jie Ng",
+      "product": "Kettle",
+      "quantity": "5",
+      "net_amount": "445.00",
+      "gross_amount": "471.70"
+    },
+    {
+      "record_id": "JHB-2034",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-13",
+      "delivery_date": "2026-09-14",
+      "customer": "Sara Abdullah",
+      "product": "Blender",
+      "quantity": "19",
+      "net_amount": "2451.00",
+      "gross_amount": "2598.06"
+    },
+    {
+      "record_id": "JHB-2035",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-08",
+      "delivery_date": "2026-09-09",
+      "customer": "Wei Jie Ng",
+      "product": "Fan",
+      "quantity": "15",
+      "net_amount": "2235.00",
+      "gross_amount": "2369.10"
+    },
+    {
+      "record_id": "JHB-2036",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-17",
+      "delivery_date": "2026-09-22",
+      "customer": "Ravi Kumar",
+      "product": "Kettle",
+      "quantity": "13",
+      "net_amount": "1157.00",
+      "gross_amount": "1226.42"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "file": "08_duplicate.xlsx",
+  "case": "B",
+  "pass": 2,
+  "gate": "row_count",
+  "header_row": 1,
+  "mapping": {
+    "Ref": "record_id",
+    "Outlet": "branch",
+    "Sale Date": "sale_date",
+    "Delivered": "delivery_date",
+    "Customer": "customer",
+    "Item": "product",
+    "Qty": "quantity",
+    "Net": "net_amount",
+    "Gross": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": {
+    "id": "IPH-0412",
+    "keep_row": 4,
+    "drop_row": 9,
+    "keep_sheet_row": 5,
+    "drop_sheet_row": 10
+  },
+  "rows_read": 15,
+  "rows_merged": 14,
+  "rows_held": 0,
+  "rows_removed": 1,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "IPH-0409",
+    "IPH-0410",
+    "IPH-0411",
+    "IPH-0412",
+    "IPH-0413",
+    "IPH-0414",
+    "IPH-0415",
+    "IPH-0416",
+    "IPH-0412",
+    "IPH-0418",
+    "IPH-0419",
+    "IPH-0420",
+    "IPH-0421",
+    "IPH-0422",
+    "IPH-0423"
+  ],
+  "rows": [
+    {
+      "record_id": "IPH-0409",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-08",
+      "delivery_date": "2026-10-13",
+      "customer": "Sara Abdullah",
+      "product": "Kettle",
+      "quantity": "7",
+      "net_amount": "623.00",
+      "gross_amount": "660.38"
+    },
+    {
+      "record_id": "IPH-0410",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-08",
+      "delivery_date": "",
+      "customer": "Chloe Teo",
+      "product": "Kettle",
+      "quantity": "13",
+      "net_amount": "1157.00",
+      "gross_amount": "1226.42"
+    },
+    {
+      "record_id": "IPH-0411",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-23",
+      "delivery_date": "2026-10-26",
+      "customer": "Sara Abdullah",
+      "product": "Toaster",
+      "quantity": "17",
+      "net_amount": "1105.00",
+      "gross_amount": "1171.30"
+    },
+    {
+      "record_id": "IPH-0412",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-16",
+      "delivery_date": "2026-10-21",
+      "customer": "Thomas Lim",
+      "product": "Fan",
+      "quantity": "18",
+      "net_amount": "2682.00",
+      "gross_amount": "2842.92"
+    },
+    {
+      "record_id": "IPH-0413",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-10",
+      "delivery_date": "",
+      "customer": "Priya Menon",
+      "product": "Blender",
+      "quantity": "10",
+      "net_amount": "1290.00",
+      "gross_amount": "1367.40"
+    },
+    {
+      "record_id": "IPH-0414",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-20",
+      "delivery_date": "",
+      "customer": "Aina Rahman",
+      "product": "Kettle",
+      "quantity": "11",
+      "net_amount": "979.00",
+      "gross_amount": "1037.74"
+    },
+    {
+      "record_id": "IPH-0415",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-05",
+      "delivery_date": "2026-10-06",
+      "customer": "Farah Ismail",
+      "product": "Fan",
+      "quantity": "10",
+      "net_amount": "1490.00",
+      "gross_amount": "1579.40"
+    },
+    {
+      "record_id": "IPH-0416",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-22",
+      "delivery_date": "",
+      "customer": "Zara Khalid",
+      "product": "Toaster",
+      "quantity": "10",
+      "net_amount": "650.00",
+      "gross_amount": "689.00"
+    },
+    {
+      "record_id": "IPH-0418",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-20",
+      "delivery_date": "",
+      "customer": "Hafiz Osman",
+      "product": "Fan",
+      "quantity": "16",
+      "net_amount": "2384.00",
+      "gross_amount": "2527.04"
+    },
+    {
+      "record_id": "IPH-0419",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-10",
+      "delivery_date": "2026-10-14",
+      "customer": "Jasmine Lee",
+      "product": "Iron",
+      "quantity": "6",
+      "net_amount": "450.00",
+      "gross_amount": "477.00"
+    },
+    {
+      "record_id": "IPH-0420",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-18",
+      "delivery_date": "2026-10-22",
+      "customer": "Jasmine Lee",
+      "product": "Iron",
+      "quantity": "8",
+      "net_amount": "600.00",
+      "gross_amount": "636.00"
+    },
+    {
+      "record_id": "IPH-0421",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-12",
+      "delivery_date": "",
+      "customer": "Thomas Lim",
+      "product": "Iron",
+      "quantity": "14",
+      "net_amount": "1050.00",
+      "gross_amount": "1113.00"
+    },
+    {
+      "record_id": "IPH-0422",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-09",
+      "delivery_date": "2026-10-10",
+      "customer": "Daniel Tan",
+      "product": "Toaster",
+      "quantity": "10",
+      "net_amount": "650.00",
+      "gross_amount": "689.00"
+    },
+    {
+      "record_id": "IPH-0423",
+      "branch": "Ipoh",
+      "sale_date": "2026-10-27",
+      "delivery_date": "2026-10-28",
+      "customer": "Priya Menon",
+      "product": "Iron",
+      "quantity": "12",
+      "net_amount": "900.00",
+      "gross_amount": "954.00"
+    }
+  ]
+}

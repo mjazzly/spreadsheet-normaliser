@@ -1,0 +1,180 @@
+{
+  "file": "01_clean_i.xlsx",
+  "case": "1",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "Sale Date": "sale_date",
+    "Gross": "gross_amount",
+    "Delivered On": "delivery_date",
+    "Product": "product",
+    "ID": "record_id",
+    "Branch": "branch",
+    "Net": "net_amount",
+    "Qty": "quantity",
+    "Customer": "customer"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "JHB-2013",
+    "JHB-2014",
+    "JHB-2015",
+    "JHB-2016",
+    "JHB-2017",
+    "JHB-2018",
+    "JHB-2019",
+    "JHB-2020",
+    "JHB-2021",
+    "JHB-2022",
+    "JHB-2023",
+    "JHB-2024"
+  ],
+  "rows": [
+    {
+      "record_id": "JHB-2013",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-20",
+      "delivery_date": "2026-09-24",
+      "customer": "Chloe Teo",
+      "product": "Fan",
+      "quantity": "10",
+      "net_amount": "1490.00",
+      "gross_amount": "1579.40"
+    },
+    {
+      "record_id": "JHB-2014",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-23",
+      "delivery_date": "",
+      "customer": "Aina Rahman",
+      "product": "Blender",
+      "quantity": "11",
+      "net_amount": "1419.00",
+      "gross_amount": "1504.14"
+    },
+    {
+      "record_id": "JHB-2015",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-01",
+      "delivery_date": "2026-09-05",
+      "customer": "Farah Ismail",
+      "product": "Blender",
+      "quantity": "16",
+      "net_amount": "2064.00",
+      "gross_amount": "2187.84"
+    },
+    {
+      "record_id": "JHB-2016",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-18",
+      "delivery_date": "",
+      "customer": "Kavitha Nair",
+      "product": "Fan",
+      "quantity": "10",
+      "net_amount": "1490.00",
+      "gross_amount": "1579.40"
+    },
+    {
+      "record_id": "JHB-2017",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-19",
+      "delivery_date": "2026-09-24",
+      "customer": "Daniel Tan",
+      "product": "Iron",
+      "quantity": "9",
+      "net_amount": "675.00",
+      "gross_amount": "715.50"
+    },
+    {
+      "record_id": "JHB-2018",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-15",
+      "delivery_date": "",
+      "customer": "Jasmine Lee",
+      "product": "Kettle",
+      "quantity": "2",
+      "net_amount": "178.00",
+      "gross_amount": "188.68"
+    },
+    {
+      "record_id": "JHB-2019",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-20",
+      "delivery_date": "2026-09-24",
+      "customer": "Uma Devi",
+      "product": "Blender",
+      "quantity": "7",
+      "net_amount": "903.00",
+      "gross_amount": "957.18"
+    },
+    {
+      "record_id": "JHB-2020",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-04",
+      "delivery_date": "2026-09-09",
+      "customer": "Ravi Kumar",
+      "product": "Kettle",
+      "quantity": "5",
+      "net_amount": "445.00",
+      "gross_amount": "471.70"
+    },
+    {
+      "record_id": "JHB-2021",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-09",
+      "delivery_date": "",
+      "customer": "Mei Ling Chua",
+      "product": "Blender",
+      "quantity": "17",
+      "net_amount": "2193.00",
+      "gross_amount": "2324.58"
+    },
+    {
+      "record_id": "JHB-2022",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-01",
+      "delivery_date": "2026-09-02",
+      "customer": "Sara Abdullah",
+      "product": "Toaster",
+      "quantity": "18",
+      "net_amount": "1170.00",
+      "gross_amount": "1240.20"
+    },
+    {
+      "record_id": "JHB-2023",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-07",
+      "delivery_date": "2026-09-09",
+      "customer": "Aina Rahman",
+      "product": "Iron",
+      "quantity": "3",
+      "net_amount": "225.00",
+      "gross_amount": "238.50"
+    },
+    {
+      "record_id": "JHB-2024",
+      "branch": "Johor Bahru",
+      "sale_date": "2026-09-18",
+      "delivery_date": "2026-09-20",
+      "customer": "Wei Jie Ng",
+      "product": "Blender",
+      "quantity": "18",
+      "net_amount": "2322.00",
+      "gross_amount": "2461.32"
+    }
+  ]
+}

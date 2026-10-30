@@ -1,0 +1,184 @@
+{
+  "file": "04_date.xlsx",
+  "case": "4",
+  "pass": 1,
+  "gate": "two_targets",
+  "header_row": 1,
+  "mapping": {
+    "Ref": "record_id",
+    "Outlet": "branch",
+    "Date": "sale_date",
+    "Customer": "customer",
+    "Item": "product",
+    "Qty": "quantity",
+    "Net": "net_amount",
+    "Gross": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": {
+    "Date": [
+      "sale_date",
+      "delivery_date"
+    ]
+  },
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "PEN-4025",
+    "PEN-4026",
+    "PEN-4027",
+    "PEN-4028",
+    "PEN-4029",
+    "PEN-4030",
+    "PEN-4031",
+    "PEN-4032",
+    "PEN-4033",
+    "PEN-4034",
+    "PEN-4035",
+    "PEN-4036"
+  ],
+  "rows": [
+    {
+      "record_id": "PEN-4025",
+      "branch": "Penang",
+      "sale_date": "2026-09-13",
+      "delivery_date": "",
+      "customer": "Ravi Kumar",
+      "product": "Blender",
+      "quantity": "9",
+      "net_amount": "1161.00",
+      "gross_amount": "1230.66"
+    },
+    {
+      "record_id": "PEN-4026",
+      "branch": "Penang",
+      "sale_date": "2026-09-13",
+      "delivery_date": "",
+      "customer": "Ravi Kumar",
+      "product": "Toaster",
+      "quantity": "5",
+      "net_amount": "325.00",
+      "gross_amount": "344.50"
+    },
+    {
+      "record_id": "PEN-4027",
+      "branch": "Penang",
+      "sale_date": "2026-09-21",
+      "delivery_date": "",
+      "customer": "Ravi Kumar",
+      "product": "Kettle",
+      "quantity": "19",
+      "net_amount": "1691.00",
+      "gross_amount": "1792.46"
+    },
+    {
+      "record_id": "PEN-4028",
+      "branch": "Penang",
+      "sale_date": "2026-09-02",
+      "delivery_date": "",
+      "customer": "Irfan Zulkifli",
+      "product": "Iron",
+      "quantity": "4",
+      "net_amount": "300.00",
+      "gross_amount": "318.00"
+    },
+    {
+      "record_id": "PEN-4029",
+      "branch": "Penang",
+      "sale_date": "2026-09-24",
+      "delivery_date": "",
+      "customer": "Liam Wong",
+      "product": "Toaster",
+      "quantity": "1",
+      "net_amount": "65.00",
+      "gross_amount": "68.90"
+    },
+    {
+      "record_id": "PEN-4030",
+      "branch": "Penang",
+      "sale_date": "2026-09-24",
+      "delivery_date": "",
+      "customer": "Kavitha Nair",
+      "product": "Blender",
+      "quantity": "8",
+      "net_amount": "1032.00",
+      "gross_amount": "1093.92"
+    },
+    {
+      "record_id": "PEN-4031",
+      "branch": "Penang",
+      "sale_date": "2026-09-02",
+      "delivery_date": "",
+      "customer": "Irfan Zulkifli",
+      "product": "Fan",
+      "quantity": "12",
+      "net_amount": "1788.00",
+      "gross_amount": "1895.28"
+    },
+    {
+      "record_id": "PEN-4032",
+      "branch": "Penang",
+      "sale_date": "2026-09-03",
+      "delivery_date": "",
+      "customer": "Sara Abdullah",
+      "product": "Toaster",
+      "quantity": "5",
+      "net_amount": "325.00",
+      "gross_amount": "344.50"
+    },
+    {
+      "record_id": "PEN-4033",
+      "branch": "Penang",
+      "sale_date": "2026-09-11",
+      "delivery_date": "",
+      "customer": "Liam Wong",
+      "product": "Kettle",
+      "quantity": "5",
+      "net_amount": "445.00",
+      "gross_amount": "471.70"
+    },
+    {
+      "record_id": "PEN-4034",
+      "branch": "Penang",
+      "sale_date": "2026-09-28",
+      "delivery_date": "",
+      "customer": "Aina Rahman",
+      "product": "Iron",
+      "quantity": "2",
+      "net_amount": "150.00",
+      "gross_amount": "159.00"
+    },
+    {
+      "record_id": "PEN-4035",
+      "branch": "Penang",
+      "sale_date": "2026-09-23",
+      "delivery_date": "",
+      "customer": "Ravi Kumar",
+      "product": "Toaster",
+      "quantity": "10",
+      "net_amount": "650.00",
+      "gross_amount": "689.00"
+    },
+    {
+      "record_id": "PEN-4036",
+      "branch": "Penang",
+      "sale_date": "2026-09-15",
+      "delivery_date": "",
+      "customer": "Yusuf Karim",
+      "product": "Toaster",
+      "quantity": "20",
+      "net_amount": "1300.00",
+      "gross_amount": "1378.00"
+    }
+  ]
+}

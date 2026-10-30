@@ -1,0 +1,186 @@
+{
+  "file": "03_fmt_c.xlsx",
+  "case": "3",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "ID": "record_id",
+    "Location": "branch",
+    "Transaction Date": "sale_date",
+    "Delivered On": "delivery_date",
+    "Customer first name": "customer",
+    "Customer last name": "customer",
+    "Product": "product",
+    "Quantity": "quantity",
+    "Before tax": "net_amount",
+    "After tax": "gross_amount"
+  },
+  "joins": {
+    "customer": [
+      "Customer first name",
+      "Customer last name"
+    ]
+  },
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "SHA-1025",
+    "SHA-1026",
+    "SHA-1027",
+    "SHA-1028",
+    "SHA-1029",
+    "SHA-1030",
+    "SHA-1031",
+    "SHA-1032",
+    "SHA-1033",
+    "SHA-1034",
+    "SHA-1035",
+    "SHA-1036"
+  ],
+  "rows": [
+    {
+      "record_id": "SHA-1025",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-09",
+      "delivery_date": "",
+      "customer": "Priya Menon",
+      "product": "Kettle",
+      "quantity": "19",
+      "net_amount": "1691.00",
+      "gross_amount": "1792.46"
+    },
+    {
+      "record_id": "SHA-1026",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-25",
+      "delivery_date": "",
+      "customer": "Jasmine Lee",
+      "product": "Kettle",
+      "quantity": "3",
+      "net_amount": "267.00",
+      "gross_amount": "283.02"
+    },
+    {
+      "record_id": "SHA-1027",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-09",
+      "delivery_date": "",
+      "customer": "Daniel Tan",
+      "product": "Blender",
+      "quantity": "11",
+      "net_amount": "1419.00",
+      "gross_amount": "1504.14"
+    },
+    {
+      "record_id": "SHA-1028",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-11",
+      "delivery_date": "2026-09-14",
+      "customer": "Liam Wong",
+      "product": "Kettle",
+      "quantity": "10",
+      "net_amount": "890.00",
+      "gross_amount": "943.40"
+    },
+    {
+      "record_id": "SHA-1029",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-14",
+      "delivery_date": "2026-09-15",
+      "customer": "Aina Rahman",
+      "product": "Toaster",
+      "quantity": "4",
+      "net_amount": "260.00",
+      "gross_amount": "275.60"
+    },
+    {
+      "record_id": "SHA-1030",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-10",
+      "delivery_date": "",
+      "customer": "Nabil Hussin",
+      "product": "Fan",
+      "quantity": "2",
+      "net_amount": "298.00",
+      "gross_amount": "315.88"
+    },
+    {
+      "record_id": "SHA-1031",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-17",
+      "delivery_date": "2026-09-18",
+      "customer": "Ravi Kumar",
+      "product": "Toaster",
+      "quantity": "16",
+      "net_amount": "1040.00",
+      "gross_amount": "1102.40"
+    },
+    {
+      "record_id": "SHA-1032",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-18",
+      "delivery_date": "",
+      "customer": "Arjun Pillai",
+      "product": "Toaster",
+      "quantity": "15",
+      "net_amount": "975.00",
+      "gross_amount": "1033.50"
+    },
+    {
+      "record_id": "SHA-1033",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-15",
+      "delivery_date": "",
+      "customer": "Daniel Tan",
+      "product": "Toaster",
+      "quantity": "6",
+      "net_amount": "390.00",
+      "gross_amount": "413.40"
+    },
+    {
+      "record_id": "SHA-1034",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-28",
+      "delivery_date": "",
+      "customer": "Priya Menon",
+      "product": "Toaster",
+      "quantity": "15",
+      "net_amount": "975.00",
+      "gross_amount": "1033.50"
+    },
+    {
+      "record_id": "SHA-1035",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-20",
+      "delivery_date": "",
+      "customer": "Nabil Hussin",
+      "product": "Iron",
+      "quantity": "16",
+      "net_amount": "1200.00",
+      "gross_amount": "1272.00"
+    },
+    {
+      "record_id": "SHA-1036",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-19",
+      "delivery_date": "2026-09-21",
+      "customer": "Irfan Zulkifli",
+      "product": "Iron",
+      "quantity": "8",
+      "net_amount": "600.00",
+      "gross_amount": "636.00"
+    }
+  ]
+}

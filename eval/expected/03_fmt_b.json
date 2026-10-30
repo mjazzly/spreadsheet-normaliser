@@ -1,0 +1,176 @@
+{
+  "file": "03_fmt_b.xlsx",
+  "case": "3",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "Reference": "record_id",
+    "Outlet": "branch",
+    "Sold On": "sale_date",
+    "Delivery Date": "delivery_date",
+    "Buyer": "customer",
+    "Goods": "product",
+    "Pcs": "quantity",
+    "Net (RM)": "net_amount",
+    "Gross (RM)": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 11,
+  "rows_held": 1,
+  "rows_removed": 0,
+  "held_rows": [
+    {
+      "sheet_row": 8,
+      "record_id": "KCH-3031",
+      "field": "quantity",
+      "value": "n/a"
+    }
+  ],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "KCH-3025",
+    "KCH-3026",
+    "KCH-3027",
+    "KCH-3028",
+    "KCH-3029",
+    "KCH-3030",
+    "KCH-3031",
+    "KCH-3032",
+    "KCH-3033",
+    "KCH-3034",
+    "KCH-3035",
+    "KCH-3036"
+  ],
+  "rows": [
+    {
+      "record_id": "KCH-3025",
+      "branch": "Kuching",
+      "sale_date": "2026-09-01",
+      "delivery_date": "2026-09-03",
+      "customer": "Jasmine Lee",
+      "product": "Iron",
+      "quantity": "18",
+      "net_amount": "1350.00",
+      "gross_amount": "1431.00"
+    },
+    {
+      "record_id": "KCH-3026",
+      "branch": "Kuching",
+      "sale_date": "2026-09-16",
+      "delivery_date": "",
+      "customer": "Hafiz Osman",
+      "product": "Iron",
+      "quantity": "10",
+      "net_amount": "750.00",
+      "gross_amount": "795.00"
+    },
+    {
+      "record_id": "KCH-3027",
+      "branch": "Kuching",
+      "sale_date": "2026-09-26",
+      "delivery_date": "2026-09-28",
+      "customer": "Hafiz Osman",
+      "product": "Iron",
+      "quantity": "1",
+      "net_amount": "75.00",
+      "gross_amount": "79.50"
+    },
+    {
+      "record_id": "KCH-3028",
+      "branch": "Kuching",
+      "sale_date": "2026-09-09",
+      "delivery_date": "2026-09-11",
+      "customer": "Aina Rahman",
+      "product": "Fan",
+      "quantity": "18",
+      "net_amount": "2682.00",
+      "gross_amount": "2842.92"
+    },
+    {
+      "record_id": "KCH-3029",
+      "branch": "Kuching",
+      "sale_date": "2026-09-06",
+      "delivery_date": "2026-09-08",
+      "customer": "Wei Jie Ng",
+      "product": "Blender",
+      "quantity": "16",
+      "net_amount": "2064.00",
+      "gross_amount": "2187.84"
+    },
+    {
+      "record_id": "KCH-3030",
+      "branch": "Kuching",
+      "sale_date": "2026-09-01",
+      "delivery_date": "2026-09-05",
+      "customer": "Zara Khalid",
+      "product": "Fan",
+      "quantity": "14",
+      "net_amount": "2086.00",
+      "gross_amount": "2211.16"
+    },
+    {
+      "record_id": "KCH-3032",
+      "branch": "Kuching",
+      "sale_date": "2026-09-16",
+      "delivery_date": "2026-09-20",
+      "customer": "Jasmine Lee",
+      "product": "Blender",
+      "quantity": "9",
+      "net_amount": "1161.00",
+      "gross_amount": "1230.66"
+    },
+    {
+      "record_id": "KCH-3033",
+      "branch": "Kuching",
+      "sale_date": "2026-09-06",
+      "delivery_date": "2026-09-07",
+      "customer": "Farah Ismail",
+      "product": "Toaster",
+      "quantity": "1",
+      "net_amount": "65.00",
+      "gross_amount": "68.90"
+    },
+    {
+      "record_id": "KCH-3034",
+      "branch": "Kuching",
+      "sale_date": "2026-09-06",
+      "delivery_date": "2026-09-07",
+      "customer": "Sara Abdullah",
+      "product": "Toaster",
+      "quantity": "13",
+      "net_amount": "845.00",
+      "gross_amount": "895.70"
+    },
+    {
+      "record_id": "KCH-3035",
+      "branch": "Kuching",
+      "sale_date": "2026-09-14",
+      "delivery_date": "2026-09-19",
+      "customer": "Thomas Lim",
+      "product": "Fan",
+      "quantity": "16",
+      "net_amount": "2384.00",
+      "gross_amount": "2527.04"
+    },
+    {
+      "record_id": "KCH-3036",
+      "branch": "Kuching",
+      "sale_date": "2026-09-24",
+      "delivery_date": "2026-09-28",
+      "customer": "Mei Ling Chua",
+      "product": "Toaster",
+      "quantity": "3",
+      "net_amount": "195.00",
+      "gross_amount": "206.70"
+    }
+  ]
+}

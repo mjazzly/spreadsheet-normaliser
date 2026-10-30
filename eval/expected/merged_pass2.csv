@@ -1,0 +1,243 @@
+record_id,branch,sale_date,delivery_date,customer,product,quantity,net_amount,gross_amount,source_file
+SHA-1001,Shah Alam,2026-09-11,2026-09-14,Ravi Kumar,Fan,15,2235.00,2369.10,01_clean_a.xlsx
+SHA-1002,Shah Alam,2026-09-06,2026-09-07,Ravi Kumar,Iron,13,975.00,1033.50,01_clean_a.xlsx
+SHA-1003,Shah Alam,2026-09-25,,Daniel Tan,Blender,14,1806.00,1914.36,01_clean_a.xlsx
+SHA-1004,Shah Alam,2026-09-18,2026-09-22,Liam Wong,Toaster,4,260.00,275.60,01_clean_a.xlsx
+SHA-1005,Shah Alam,2026-09-15,2026-09-19,Liam Wong,Fan,16,2384.00,2527.04,01_clean_a.xlsx
+SHA-1006,Shah Alam,2026-09-16,,Kavitha Nair,Toaster,16,1040.00,1102.40,01_clean_a.xlsx
+SHA-1007,Shah Alam,2026-09-02,2026-09-03,Jasmine Lee,Toaster,8,520.00,551.20,01_clean_a.xlsx
+SHA-1008,Shah Alam,2026-09-16,2026-09-20,Chloe Teo,Fan,5,745.00,789.70,01_clean_a.xlsx
+SHA-1009,Shah Alam,2026-09-07,2026-09-09,Liam Wong,Iron,8,600.00,636.00,01_clean_a.xlsx
+SHA-1010,Shah Alam,2026-09-20,,Thomas Lim,Kettle,10,890.00,943.40,01_clean_a.xlsx
+SHA-1011,Shah Alam,2026-09-05,2026-09-06,Yusuf Karim,Fan,3,447.00,473.82,01_clean_a.xlsx
+SHA-1012,Shah Alam,2026-09-06,,Yusuf Karim,Fan,7,1043.00,1105.58,01_clean_a.xlsx
+IPH-0601,Ipoh,2026-09-06,,Uma Devi,Kettle,5,445.00,471.70,01_clean_b.xlsx
+IPH-0602,Ipoh,2026-09-08,2026-09-11,Jasmine Lee,Iron,8,600.00,636.00,01_clean_b.xlsx
+IPH-0603,Ipoh,2026-09-20,2026-09-25,Thomas Lim,Blender,9,1161.00,1230.66,01_clean_b.xlsx
+IPH-0604,Ipoh,2026-09-13,,Irfan Zulkifli,Kettle,12,1068.00,1132.08,01_clean_b.xlsx
+IPH-0605,Ipoh,2026-09-16,2026-09-21,Thomas Lim,Toaster,7,455.00,482.30,01_clean_b.xlsx
+IPH-0606,Ipoh,2026-09-15,,Liam Wong,Toaster,19,1235.00,1309.10,01_clean_b.xlsx
+IPH-0607,Ipoh,2026-09-04,2026-09-08,Irfan Zulkifli,Toaster,9,585.00,620.10,01_clean_b.xlsx
+IPH-0608,Ipoh,2026-09-18,,Chloe Teo,Blender,16,2064.00,2187.84,01_clean_b.xlsx
+IPH-0609,Ipoh,2026-09-13,,Mei Ling Chua,Toaster,8,520.00,551.20,01_clean_b.xlsx
+IPH-0610,Ipoh,2026-09-16,,Hafiz Osman,Iron,10,750.00,795.00,01_clean_b.xlsx
+IPH-0611,Ipoh,2026-09-08,,Arjun Pillai,Kettle,16,1424.00,1509.44,01_clean_b.xlsx
+IPH-0612,Ipoh,2026-09-24,,Uma Devi,Kettle,7,623.00,660.38,01_clean_b.xlsx
+JHB-2001,Johor Bahru,2026-09-24,2026-09-28,Sara Abdullah,Blender,11,1419.00,1504.14,01_clean_c.xlsx
+JHB-2002,Johor Bahru,2026-09-12,2026-09-13,Kavitha Nair,Blender,10,1290.00,1367.40,01_clean_c.xlsx
+JHB-2003,Johor Bahru,2026-09-28,,Aina Rahman,Fan,11,1639.00,1737.34,01_clean_c.xlsx
+JHB-2004,Johor Bahru,2026-09-14,2026-09-19,Uma Devi,Blender,3,387.00,410.22,01_clean_c.xlsx
+JHB-2005,Johor Bahru,2026-09-14,,Mei Ling Chua,Fan,6,894.00,947.64,01_clean_c.xlsx
+JHB-2006,Johor Bahru,2026-09-09,2026-09-12,Aina Rahman,Kettle,18,1602.00,1698.12,01_clean_c.xlsx
+JHB-2007,Johor Bahru,2026-09-22,2026-09-24,Aina Rahman,Kettle,19,1691.00,1792.46,01_clean_c.xlsx
+JHB-2008,Johor Bahru,2026-09-21,2026-09-24,Ravi Kumar,Blender,5,645.00,683.70,01_clean_c.xlsx
+JHB-2009,Johor Bahru,2026-09-28,,Ravi Kumar,Blender,1,129.00,136.74,01_clean_c.xlsx
+JHB-2010,Johor Bahru,2026-09-16,,Daniel Tan,Toaster,5,325.00,344.50,01_clean_c.xlsx
+JHB-2011,Johor Bahru,2026-09-15,2026-09-19,Yusuf Karim,Iron,19,1425.00,1510.50,01_clean_c.xlsx
+JHB-2012,Johor Bahru,2026-09-22,2026-09-23,Ravi Kumar,Iron,3,225.00,238.50,01_clean_c.xlsx
+KCH-3001,Kuching,2026-09-18,2026-09-19,Jasmine Lee,Fan,7,1043.00,1105.58,01_clean_d.xlsx
+KCH-3002,Kuching,2026-09-05,,Thomas Lim,Kettle,5,445.00,471.70,01_clean_d.xlsx
+KCH-3003,Kuching,2026-09-21,2026-09-24,Wei Jie Ng,Toaster,14,910.00,964.60,01_clean_d.xlsx
+KCH-3004,Kuching,2026-09-17,,Aina Rahman,Blender,15,1935.00,2051.10,01_clean_d.xlsx
+KCH-3005,Kuching,2026-09-26,2026-09-27,Jasmine Lee,Blender,14,1806.00,1914.36,01_clean_d.xlsx
+KCH-3006,Kuching,2026-09-01,2026-09-06,Nabil Hussin,Fan,12,1788.00,1895.28,01_clean_d.xlsx
+KCH-3007,Kuching,2026-09-18,2026-09-22,Yusuf Karim,Iron,11,825.00,874.50,01_clean_d.xlsx
+KCH-3008,Kuching,2026-09-18,2026-09-23,Aina Rahman,Iron,1,75.00,79.50,01_clean_d.xlsx
+KCH-3009,Kuching,2026-09-07,2026-09-09,Ravi Kumar,Kettle,14,1246.00,1320.76,01_clean_d.xlsx
+KCH-3010,Kuching,2026-09-27,2026-09-28,Arjun Pillai,Toaster,20,1300.00,1378.00,01_clean_d.xlsx
+KCH-3011,Kuching,2026-09-10,2026-09-14,Arjun Pillai,Blender,13,1677.00,1777.62,01_clean_d.xlsx
+KCH-3012,Kuching,2026-09-20,,Aina Rahman,Fan,7,1043.00,1105.58,01_clean_d.xlsx
+PEN-4001,Penang,2026-09-15,2026-09-18,Chloe Teo,Iron,5,375.00,397.50,01_clean_e.xlsx
+PEN-4002,Penang,2026-09-08,,Zara Khalid,Blender,14,1806.00,1914.36,01_clean_e.xlsx
+PEN-4003,Penang,2026-09-20,,Arjun Pillai,Fan,18,2682.00,2842.92,01_clean_e.xlsx
+PEN-4004,Penang,2026-09-11,2026-09-13,Mei Ling Chua,Toaster,9,585.00,620.10,01_clean_e.xlsx
+PEN-4005,Penang,2026-09-08,2026-09-11,Kavitha Nair,Kettle,4,356.00,377.36,01_clean_e.xlsx
+PEN-4006,Penang,2026-09-04,2026-09-06,Kavitha Nair,Blender,8,1032.00,1093.92,01_clean_e.xlsx
+PEN-4007,Penang,2026-09-08,2026-09-13,Hafiz Osman,Kettle,2,178.00,188.68,01_clean_e.xlsx
+PEN-4008,Penang,2026-09-27,2026-09-28,Ravi Kumar,Kettle,16,1424.00,1509.44,01_clean_e.xlsx
+PEN-4009,Penang,2026-09-27,,Arjun Pillai,Fan,9,1341.00,1421.46,01_clean_e.xlsx
+PEN-4010,Penang,2026-09-09,,Kavitha Nair,Kettle,9,801.00,849.06,01_clean_e.xlsx
+PEN-4011,Penang,2026-09-13,2026-09-15,Sara Abdullah,Iron,7,525.00,556.50,01_clean_e.xlsx
+PEN-4012,Penang,2026-09-21,2026-09-23,Priya Menon,Fan,8,1192.00,1263.52,01_clean_e.xlsx
+MLK-5001,Melaka,2026-09-14,,Thomas Lim,Toaster,16,1040.00,1102.40,01_clean_f.xlsx
+MLK-5002,Melaka,2026-09-11,2026-09-16,Priya Menon,Kettle,16,1424.00,1509.44,01_clean_f.xlsx
+MLK-5003,Melaka,2026-09-03,,Liam Wong,Blender,9,1161.00,1230.66,01_clean_f.xlsx
+MLK-5004,Melaka,2026-09-26,2026-09-28,Irfan Zulkifli,Iron,10,750.00,795.00,01_clean_f.xlsx
+MLK-5005,Melaka,2026-09-21,2026-09-24,Chloe Teo,Iron,20,1500.00,1590.00,01_clean_f.xlsx
+MLK-5006,Melaka,2026-09-07,,Wei Jie Ng,Blender,20,2580.00,2734.80,01_clean_f.xlsx
+MLK-5007,Melaka,2026-09-02,,Chloe Teo,Iron,10,750.00,795.00,01_clean_f.xlsx
+MLK-5008,Melaka,2026-09-16,2026-09-18,Chloe Teo,Iron,16,1200.00,1272.00,01_clean_f.xlsx
+MLK-5009,Melaka,2026-09-04,,Yusuf Karim,Toaster,4,260.00,275.60,01_clean_f.xlsx
+MLK-5010,Melaka,2026-09-08,,Yusuf Karim,Blender,2,258.00,273.48,01_clean_f.xlsx
+MLK-5011,Melaka,2026-09-17,2026-09-20,Ravi Kumar,Blender,4,516.00,546.96,01_clean_f.xlsx
+MLK-5012,Melaka,2026-09-05,,Wei Jie Ng,Fan,16,2384.00,2527.04,01_clean_f.xlsx
+SHA-1013,Shah Alam,2026-09-09,,Wei Jie Ng,Blender,8,1032.00,1093.92,01_clean_g.xlsx
+SHA-1014,Shah Alam,2026-09-01,,Thomas Lim,Iron,20,1500.00,1590.00,01_clean_g.xlsx
+SHA-1015,Shah Alam,2026-09-18,,Farah Ismail,Toaster,18,1170.00,1240.20,01_clean_g.xlsx
+SHA-1016,Shah Alam,2026-09-18,,Thomas Lim,Toaster,15,975.00,1033.50,01_clean_g.xlsx
+SHA-1017,Shah Alam,2026-09-05,,Yusuf Karim,Blender,8,1032.00,1093.92,01_clean_g.xlsx
+SHA-1018,Shah Alam,2026-09-09,2026-09-12,Ravi Kumar,Blender,9,1161.00,1230.66,01_clean_g.xlsx
+SHA-1019,Shah Alam,2026-09-18,,Chloe Teo,Toaster,11,715.00,757.90,01_clean_g.xlsx
+SHA-1020,Shah Alam,2026-09-16,2026-09-19,Mei Ling Chua,Blender,8,1032.00,1093.92,01_clean_g.xlsx
+SHA-1021,Shah Alam,2026-09-16,2026-09-18,Wei Jie Ng,Iron,1,75.00,79.50,01_clean_g.xlsx
+SHA-1022,Shah Alam,2026-09-03,2026-09-08,Nabil Hussin,Iron,5,375.00,397.50,01_clean_g.xlsx
+SHA-1023,Shah Alam,2026-09-21,,Aina Rahman,Blender,2,258.00,273.48,01_clean_g.xlsx
+SHA-1024,Shah Alam,2026-09-04,2026-09-09,Kavitha Nair,Iron,15,1125.00,1192.50,01_clean_g.xlsx
+IPH-0613,Ipoh,2026-09-16,2026-09-17,Aina Rahman,Kettle,6,534.00,566.04,01_clean_h.xlsx
+IPH-0614,Ipoh,2026-09-02,2026-09-04,Wei Jie Ng,Kettle,5,445.00,471.70,01_clean_h.xlsx
+IPH-0615,Ipoh,2026-09-15,2026-09-19,Aina Rahman,Blender,20,2580.00,2734.80,01_clean_h.xlsx
+IPH-0616,Ipoh,2026-09-10,2026-09-11,Zara Khalid,Fan,10,1490.00,1579.40,01_clean_h.xlsx
+IPH-0617,Ipoh,2026-09-17,2026-09-22,Chloe Teo,Iron,3,225.00,238.50,01_clean_h.xlsx
+IPH-0618,Ipoh,2026-09-13,2026-09-17,Ravi Kumar,Kettle,10,890.00,943.40,01_clean_h.xlsx
+IPH-0619,Ipoh,2026-09-21,2026-09-24,Arjun Pillai,Toaster,8,520.00,551.20,01_clean_h.xlsx
+IPH-0620,Ipoh,2026-09-28,2026-09-28,Priya Menon,Toaster,14,910.00,964.60,01_clean_h.xlsx
+IPH-0621,Ipoh,2026-09-07,2026-09-09,Hafiz Osman,Fan,12,1788.00,1895.28,01_clean_h.xlsx
+IPH-0622,Ipoh,2026-09-03,2026-09-06,Hafiz Osman,Blender,20,2580.00,2734.80,01_clean_h.xlsx
+IPH-0623,Ipoh,2026-09-14,,Liam Wong,Blender,7,903.00,957.18,01_clean_h.xlsx
+IPH-0624,Ipoh,2026-09-16,,Hafiz Osman,Iron,3,225.00,238.50,01_clean_h.xlsx
+JHB-2013,Johor Bahru,2026-09-20,2026-09-24,Chloe Teo,Fan,10,1490.00,1579.40,01_clean_i.xlsx
+JHB-2014,Johor Bahru,2026-09-23,,Aina Rahman,Blender,11,1419.00,1504.14,01_clean_i.xlsx
+JHB-2015,Johor Bahru,2026-09-01,2026-09-05,Farah Ismail,Blender,16,2064.00,2187.84,01_clean_i.xlsx
+JHB-2016,Johor Bahru,2026-09-18,,Kavitha Nair,Fan,10,1490.00,1579.40,01_clean_i.xlsx
+JHB-2017,Johor Bahru,2026-09-19,2026-09-24,Daniel Tan,Iron,9,675.00,715.50,01_clean_i.xlsx
+JHB-2018,Johor Bahru,2026-09-15,,Jasmine Lee,Kettle,2,178.00,188.68,01_clean_i.xlsx
+JHB-2019,Johor Bahru,2026-09-20,2026-09-24,Uma Devi,Blender,7,903.00,957.18,01_clean_i.xlsx
+JHB-2020,Johor Bahru,2026-09-04,2026-09-09,Ravi Kumar,Kettle,5,445.00,471.70,01_clean_i.xlsx
+JHB-2021,Johor Bahru,2026-09-09,,Mei Ling Chua,Blender,17,2193.00,2324.58,01_clean_i.xlsx
+JHB-2022,Johor Bahru,2026-09-01,2026-09-02,Sara Abdullah,Toaster,18,1170.00,1240.20,01_clean_i.xlsx
+JHB-2023,Johor Bahru,2026-09-07,2026-09-09,Aina Rahman,Iron,3,225.00,238.50,01_clean_i.xlsx
+JHB-2024,Johor Bahru,2026-09-18,2026-09-20,Wei Jie Ng,Blender,18,2322.00,2461.32,01_clean_i.xlsx
+KCH-3013,Kuching,2026-09-28,2026-09-28,Uma Devi,Fan,2,298.00,315.88,01_clean_j.xlsx
+KCH-3014,Kuching,2026-09-15,2026-09-19,Uma Devi,Iron,13,975.00,1033.50,01_clean_j.xlsx
+KCH-3015,Kuching,2026-09-21,2026-09-23,Arjun Pillai,Toaster,14,910.00,964.60,01_clean_j.xlsx
+KCH-3016,Kuching,2026-09-11,,Liam Wong,Blender,3,387.00,410.22,01_clean_j.xlsx
+KCH-3017,Kuching,2026-09-23,2026-09-24,Zara Khalid,Kettle,1,89.00,94.34,01_clean_j.xlsx
+KCH-3018,Kuching,2026-09-04,2026-09-05,Jasmine Lee,Toaster,20,1300.00,1378.00,01_clean_j.xlsx
+KCH-3019,Kuching,2026-09-14,2026-09-19,Daniel Tan,Toaster,20,1300.00,1378.00,01_clean_j.xlsx
+KCH-3020,Kuching,2026-09-10,2026-09-11,Chloe Teo,Fan,5,745.00,789.70,01_clean_j.xlsx
+KCH-3021,Kuching,2026-09-12,,Thomas Lim,Iron,5,375.00,397.50,01_clean_j.xlsx
+KCH-3022,Kuching,2026-09-27,,Uma Devi,Toaster,15,975.00,1033.50,01_clean_j.xlsx
+KCH-3023,Kuching,2026-09-26,,Sara Abdullah,Kettle,10,890.00,943.40,01_clean_j.xlsx
+KCH-3024,Kuching,2026-09-01,2026-09-02,Priya Menon,Blender,9,1161.00,1230.66,01_clean_j.xlsx
+IPH-0625,Ipoh,2026-09-27,2026-09-28,Wei Jie Ng,Kettle,12,1068.00,1132.08,02_stray_a.xlsx
+IPH-0626,Ipoh,2026-09-22,2026-09-25,Aina Rahman,Iron,11,825.00,874.50,02_stray_a.xlsx
+IPH-0627,Ipoh,2026-09-07,2026-09-11,Ravi Kumar,Iron,13,975.00,1033.50,02_stray_a.xlsx
+IPH-0628,Ipoh,2026-09-19,,Irfan Zulkifli,Toaster,7,455.00,482.30,02_stray_a.xlsx
+IPH-0629,Ipoh,2026-09-28,2026-09-28,Liam Wong,Toaster,7,455.00,482.30,02_stray_a.xlsx
+IPH-0630,Ipoh,2026-09-07,,Hafiz Osman,Kettle,10,890.00,943.40,02_stray_a.xlsx
+IPH-0631,Ipoh,2026-09-15,,Uma Devi,Kettle,7,623.00,660.38,02_stray_a.xlsx
+IPH-0632,Ipoh,2026-09-23,2026-09-24,Wei Jie Ng,Iron,19,1425.00,1510.50,02_stray_a.xlsx
+IPH-0633,Ipoh,2026-09-21,,Chloe Teo,Iron,8,600.00,636.00,02_stray_a.xlsx
+IPH-0634,Ipoh,2026-09-19,2026-09-23,Kavitha Nair,Iron,8,600.00,636.00,02_stray_a.xlsx
+IPH-0635,Ipoh,2026-09-18,2026-09-21,Chloe Teo,Blender,10,1290.00,1367.40,02_stray_a.xlsx
+IPH-0636,Ipoh,2026-09-19,2026-09-24,Kavitha Nair,Fan,7,1043.00,1105.58,02_stray_a.xlsx
+IPH-0637,Ipoh,2026-09-04,,Yusuf Karim,Kettle,15,1335.00,1415.10,02_stray_a.xlsx
+IPH-0638,Ipoh,2026-09-06,2026-09-09,Hafiz Osman,Blender,2,258.00,273.48,02_stray_a.xlsx
+IPH-0639,Ipoh,2026-09-26,2026-09-28,Hafiz Osman,Fan,16,2384.00,2527.04,02_stray_a.xlsx
+JHB-2025,Johor Bahru,2026-09-26,,Yusuf Karim,Fan,18,2682.00,2842.92,02_stray_b.xlsx
+JHB-2026,Johor Bahru,2026-09-19,2026-09-21,Mei Ling Chua,Kettle,20,1780.00,1886.80,02_stray_b.xlsx
+JHB-2027,Johor Bahru,2026-09-28,,Yusuf Karim,Toaster,4,260.00,275.60,02_stray_b.xlsx
+JHB-2028,Johor Bahru,2026-09-16,2026-09-20,Hafiz Osman,Blender,15,1935.00,2051.10,02_stray_b.xlsx
+JHB-2029,Johor Bahru,2026-09-01,2026-09-02,Liam Wong,Kettle,19,1691.00,1792.46,02_stray_b.xlsx
+JHB-2030,Johor Bahru,2026-09-08,2026-09-11,Uma Devi,Iron,6,450.00,477.00,02_stray_b.xlsx
+JHB-2031,Johor Bahru,2026-09-24,2026-09-26,Daniel Tan,Blender,20,2580.00,2734.80,02_stray_b.xlsx
+JHB-2032,Johor Bahru,2026-09-03,2026-09-05,Thomas Lim,Fan,13,1937.00,2053.22,02_stray_b.xlsx
+JHB-2033,Johor Bahru,2026-09-13,2026-09-14,Wei Jie Ng,Kettle,5,445.00,471.70,02_stray_b.xlsx
+JHB-2034,Johor Bahru,2026-09-13,2026-09-14,Sara Abdullah,Blender,19,2451.00,2598.06,02_stray_b.xlsx
+JHB-2035,Johor Bahru,2026-09-08,2026-09-09,Wei Jie Ng,Fan,15,2235.00,2369.10,02_stray_b.xlsx
+JHB-2036,Johor Bahru,2026-09-17,2026-09-22,Ravi Kumar,Kettle,13,1157.00,1226.42,02_stray_b.xlsx
+MLK-5013,Melaka,2026-09-24,,Daniel Tan,Kettle,13,1157.00,1226.42,02_stray_c.xlsx
+MLK-5014,Melaka,2026-09-14,,Kavitha Nair,Blender,1,129.00,136.74,02_stray_c.xlsx
+MLK-5015,Melaka,2026-09-17,2026-09-18,Jasmine Lee,Blender,16,2064.00,2187.84,02_stray_c.xlsx
+MLK-5016,Melaka,2026-09-15,2026-09-19,Wei Jie Ng,Blender,18,2322.00,2461.32,02_stray_c.xlsx
+MLK-5017,Melaka,2026-09-01,,Daniel Tan,Kettle,15,1335.00,1415.10,02_stray_c.xlsx
+MLK-5018,Melaka,2026-09-19,,Wei Jie Ng,Toaster,4,260.00,275.60,02_stray_c.xlsx
+MLK-5019,Melaka,2026-09-02,2026-09-03,Priya Menon,Iron,6,450.00,477.00,02_stray_c.xlsx
+MLK-5020,Melaka,2026-09-12,,Priya Menon,Blender,12,1548.00,1640.88,02_stray_c.xlsx
+MLK-5021,Melaka,2026-09-11,2026-09-13,Kavitha Nair,Fan,19,2831.00,3000.86,02_stray_c.xlsx
+MLK-5022,Melaka,2026-09-14,,Daniel Tan,Kettle,19,1691.00,1792.46,02_stray_c.xlsx
+PEN-4013,Penang,2026-09-22,,Priya Menon,Fan,8,1192.00,1263.52,03_fmt_a.xlsx
+PEN-4014,Penang,2026-09-13,,Uma Devi,Fan,11,1639.00,1737.34,03_fmt_a.xlsx
+PEN-4015,Penang,2026-09-27,2026-09-15,Mei Ling Chua,Blender,18,2322.00,2461.32,03_fmt_a.xlsx
+PEN-4016,Penang,2026-09-20,2026-09-22,Daniel Tan,Iron,10,750.00,795.00,03_fmt_a.xlsx
+PEN-4017,Penang,2026-09-02,2026-09-04,Zara Khalid,Blender,13,1677.00,1777.62,03_fmt_a.xlsx
+PEN-4018,Penang,2026-09-14,,Nabil Hussin,Kettle,9,801.00,849.06,03_fmt_a.xlsx
+PEN-4019,Penang,2026-09-19,2026-09-22,Ravi Kumar,Blender,7,903.00,957.18,03_fmt_a.xlsx
+PEN-4020,Penang,2026-09-18,,Ravi Kumar,Kettle,7,623.00,660.38,03_fmt_a.xlsx
+PEN-4021,Penang,2026-09-12,2026-09-13,Nabil Hussin,Toaster,7,455.00,482.30,03_fmt_a.xlsx
+PEN-4022,Penang,2026-09-08,,Jasmine Lee,Fan,12,1788.00,1895.28,03_fmt_a.xlsx
+PEN-4023,Penang,2026-09-26,2026-09-28,Nabil Hussin,Toaster,8,520.00,551.20,03_fmt_a.xlsx
+PEN-4024,Penang,2026-09-01,,Yusuf Karim,Iron,6,450.00,477.00,03_fmt_a.xlsx
+KCH-3025,Kuching,2026-09-01,2026-09-03,Jasmine Lee,Iron,18,1350.00,1431.00,03_fmt_b.xlsx
+KCH-3026,Kuching,2026-09-16,,Hafiz Osman,Iron,10,750.00,795.00,03_fmt_b.xlsx
+KCH-3027,Kuching,2026-09-26,2026-09-28,Hafiz Osman,Iron,1,75.00,79.50,03_fmt_b.xlsx
+KCH-3028,Kuching,2026-09-09,2026-09-11,Aina Rahman,Fan,18,2682.00,2842.92,03_fmt_b.xlsx
+KCH-3029,Kuching,2026-09-06,2026-09-08,Wei Jie Ng,Blender,16,2064.00,2187.84,03_fmt_b.xlsx
+KCH-3030,Kuching,2026-09-01,2026-09-05,Zara Khalid,Fan,14,2086.00,2211.16,03_fmt_b.xlsx
+KCH-3032,Kuching,2026-09-16,2026-09-20,Jasmine Lee,Blender,9,1161.00,1230.66,03_fmt_b.xlsx
+KCH-3033,Kuching,2026-09-06,2026-09-07,Farah Ismail,Toaster,1,65.00,68.90,03_fmt_b.xlsx
+KCH-3034,Kuching,2026-09-06,2026-09-07,Sara Abdullah,Toaster,13,845.00,895.70,03_fmt_b.xlsx
+KCH-3035,Kuching,2026-09-14,2026-09-19,Thomas Lim,Fan,16,2384.00,2527.04,03_fmt_b.xlsx
+KCH-3036,Kuching,2026-09-24,2026-09-28,Mei Ling Chua,Toaster,3,195.00,206.70,03_fmt_b.xlsx
+SHA-1025,Shah Alam,2026-09-09,,Priya Menon,Kettle,19,1691.00,1792.46,03_fmt_c.xlsx
+SHA-1026,Shah Alam,2026-09-25,,Jasmine Lee,Kettle,3,267.00,283.02,03_fmt_c.xlsx
+SHA-1027,Shah Alam,2026-09-09,,Daniel Tan,Blender,11,1419.00,1504.14,03_fmt_c.xlsx
+SHA-1028,Shah Alam,2026-09-11,2026-09-14,Liam Wong,Kettle,10,890.00,943.40,03_fmt_c.xlsx
+SHA-1029,Shah Alam,2026-09-14,2026-09-15,Aina Rahman,Toaster,4,260.00,275.60,03_fmt_c.xlsx
+SHA-1030,Shah Alam,2026-09-10,,Nabil Hussin,Fan,2,298.00,315.88,03_fmt_c.xlsx
+SHA-1031,Shah Alam,2026-09-17,2026-09-18,Ravi Kumar,Toaster,16,1040.00,1102.40,03_fmt_c.xlsx
+SHA-1032,Shah Alam,2026-09-18,,Arjun Pillai,Toaster,15,975.00,1033.50,03_fmt_c.xlsx
+SHA-1033,Shah Alam,2026-09-15,,Daniel Tan,Toaster,6,390.00,413.40,03_fmt_c.xlsx
+SHA-1034,Shah Alam,2026-09-28,,Priya Menon,Toaster,15,975.00,1033.50,03_fmt_c.xlsx
+SHA-1035,Shah Alam,2026-09-20,,Nabil Hussin,Iron,16,1200.00,1272.00,03_fmt_c.xlsx
+SHA-1036,Shah Alam,2026-09-19,2026-09-21,Irfan Zulkifli,Iron,8,600.00,636.00,03_fmt_c.xlsx
+PEN-4025,Penang,2026-09-13,,Ravi Kumar,Blender,9,1161.00,1230.66,04_date.xlsx
+PEN-4026,Penang,2026-09-13,,Ravi Kumar,Toaster,5,325.00,344.50,04_date.xlsx
+PEN-4027,Penang,2026-09-21,,Ravi Kumar,Kettle,19,1691.00,1792.46,04_date.xlsx
+PEN-4028,Penang,2026-09-02,,Irfan Zulkifli,Iron,4,300.00,318.00,04_date.xlsx
+PEN-4029,Penang,2026-09-24,,Liam Wong,Toaster,1,65.00,68.90,04_date.xlsx
+PEN-4030,Penang,2026-09-24,,Kavitha Nair,Blender,8,1032.00,1093.92,04_date.xlsx
+PEN-4031,Penang,2026-09-02,,Irfan Zulkifli,Fan,12,1788.00,1895.28,04_date.xlsx
+PEN-4032,Penang,2026-09-03,,Sara Abdullah,Toaster,5,325.00,344.50,04_date.xlsx
+PEN-4033,Penang,2026-09-11,,Liam Wong,Kettle,5,445.00,471.70,04_date.xlsx
+PEN-4034,Penang,2026-09-28,,Aina Rahman,Iron,2,150.00,159.00,04_date.xlsx
+PEN-4035,Penang,2026-09-23,,Ravi Kumar,Toaster,10,650.00,689.00,04_date.xlsx
+PEN-4036,Penang,2026-09-15,,Yusuf Karim,Toaster,20,1300.00,1378.00,04_date.xlsx
+JHB-2037,Johor Bahru,2026-09-26,2026-09-28,Wei Jie Ng,Fan,1,149.00,157.94,05_extra.xlsx
+JHB-2038,Johor Bahru,2026-09-01,2026-09-04,Thomas Lim,Kettle,20,1780.00,1886.80,05_extra.xlsx
+JHB-2039,Johor Bahru,2026-09-08,2026-09-09,Arjun Pillai,Fan,5,745.00,789.70,05_extra.xlsx
+JHB-2040,Johor Bahru,2026-09-20,2026-09-21,Chloe Teo,Fan,17,2533.00,2684.98,05_extra.xlsx
+JHB-2041,Johor Bahru,2026-09-17,,Sara Abdullah,Blender,8,1032.00,1093.92,05_extra.xlsx
+JHB-2042,Johor Bahru,2026-09-03,,Ravi Kumar,Fan,2,298.00,315.88,05_extra.xlsx
+JHB-2043,Johor Bahru,2026-09-12,2026-09-17,Thomas Lim,Iron,8,600.00,636.00,05_extra.xlsx
+JHB-2044,Johor Bahru,2026-09-06,2026-09-08,Yusuf Karim,Fan,16,2384.00,2527.04,05_extra.xlsx
+JHB-2045,Johor Bahru,2026-09-04,2026-09-07,Hafiz Osman,Toaster,2,130.00,137.80,05_extra.xlsx
+JHB-2046,Johor Bahru,2026-09-28,2026-09-28,Nabil Hussin,Iron,18,1350.00,1431.00,05_extra.xlsx
+JHB-2047,Johor Bahru,2026-09-25,2026-09-27,Yusuf Karim,Iron,7,525.00,556.50,05_extra.xlsx
+JHB-2048,Johor Bahru,2026-09-16,,Ravi Kumar,Iron,11,825.00,874.50,05_extra.xlsx
+SHA-1037,Shah Alam,2026-10-14,2026-10-16,Priya Menon,Iron,11,825.00,874.50,07_new_month.xlsx
+SHA-1038,Shah Alam,2026-10-01,2026-10-05,Nabil Hussin,Kettle,3,267.00,283.02,07_new_month.xlsx
+SHA-1039,Shah Alam,2026-10-02,2026-10-05,Arjun Pillai,Blender,3,387.00,410.22,07_new_month.xlsx
+SHA-1040,Shah Alam,2026-10-04,2026-10-07,Sara Abdullah,Iron,18,1350.00,1431.00,07_new_month.xlsx
+SHA-1041,Shah Alam,2026-10-08,2026-10-09,Hafiz Osman,Blender,5,645.00,683.70,07_new_month.xlsx
+SHA-1042,Shah Alam,2026-10-11,2026-10-14,Sara Abdullah,Fan,12,1788.00,1895.28,07_new_month.xlsx
+SHA-1043,Shah Alam,2026-10-14,,Kavitha Nair,Iron,7,525.00,556.50,07_new_month.xlsx
+SHA-1044,Shah Alam,2026-10-19,2026-10-20,Ravi Kumar,Iron,10,750.00,795.00,07_new_month.xlsx
+SHA-1045,Shah Alam,2026-10-16,2026-10-20,Aina Rahman,Kettle,13,1157.00,1226.42,07_new_month.xlsx
+SHA-1046,Shah Alam,2026-10-02,2026-10-06,Chloe Teo,Fan,11,1639.00,1737.34,07_new_month.xlsx
+SHA-1047,Shah Alam,2026-10-17,2026-10-20,Wei Jie Ng,Kettle,20,1780.00,1886.80,07_new_month.xlsx
+SHA-1048,Shah Alam,2026-10-24,2026-10-25,Farah Ismail,Blender,1,129.00,136.74,07_new_month.xlsx
+IPH-0409,Ipoh,2026-10-08,2026-10-13,Sara Abdullah,Kettle,7,623.00,660.38,08_duplicate.xlsx
+IPH-0410,Ipoh,2026-10-08,,Chloe Teo,Kettle,13,1157.00,1226.42,08_duplicate.xlsx
+IPH-0411,Ipoh,2026-10-23,2026-10-26,Sara Abdullah,Toaster,17,1105.00,1171.30,08_duplicate.xlsx
+IPH-0412,Ipoh,2026-10-16,2026-10-21,Thomas Lim,Fan,18,2682.00,2842.92,08_duplicate.xlsx
+IPH-0413,Ipoh,2026-10-10,,Priya Menon,Blender,10,1290.00,1367.40,08_duplicate.xlsx
+IPH-0414,Ipoh,2026-10-20,,Aina Rahman,Kettle,11,979.00,1037.74,08_duplicate.xlsx
+IPH-0415,Ipoh,2026-10-05,2026-10-06,Farah Ismail,Fan,10,1490.00,1579.40,08_duplicate.xlsx
+IPH-0416,Ipoh,2026-10-22,,Zara Khalid,Toaster,10,650.00,689.00,08_duplicate.xlsx
+IPH-0418,Ipoh,2026-10-20,,Hafiz Osman,Fan,16,2384.00,2527.04,08_duplicate.xlsx
+IPH-0419,Ipoh,2026-10-10,2026-10-14,Jasmine Lee,Iron,6,450.00,477.00,08_duplicate.xlsx
+IPH-0420,Ipoh,2026-10-18,2026-10-22,Jasmine Lee,Iron,8,600.00,636.00,08_duplicate.xlsx
+IPH-0421,Ipoh,2026-10-12,,Thomas Lim,Iron,14,1050.00,1113.00,08_duplicate.xlsx
+IPH-0422,Ipoh,2026-10-09,2026-10-10,Daniel Tan,Toaster,10,650.00,689.00,08_duplicate.xlsx
+IPH-0423,Ipoh,2026-10-27,2026-10-28,Priya Menon,Iron,12,900.00,954.00,08_duplicate.xlsx

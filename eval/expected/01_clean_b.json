@@ -1,0 +1,180 @@
+{
+  "file": "01_clean_b.xlsx",
+  "case": "1",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "Net (RM)": "net_amount",
+    "Quantity": "quantity",
+    "Transaction Date": "sale_date",
+    "Gross (RM)": "gross_amount",
+    "Outlet": "branch",
+    "Ref": "record_id",
+    "Item": "product",
+    "Customer Name": "customer",
+    "Delivered": "delivery_date"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "IPH-0601",
+    "IPH-0602",
+    "IPH-0603",
+    "IPH-0604",
+    "IPH-0605",
+    "IPH-0606",
+    "IPH-0607",
+    "IPH-0608",
+    "IPH-0609",
+    "IPH-0610",
+    "IPH-0611",
+    "IPH-0612"
+  ],
+  "rows": [
+    {
+      "record_id": "IPH-0601",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-06",
+      "delivery_date": "",
+      "customer": "Uma Devi",
+      "product": "Kettle",
+      "quantity": "5",
+      "net_amount": "445.00",
+      "gross_amount": "471.70"
+    },
+    {
+      "record_id": "IPH-0602",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-08",
+      "delivery_date": "2026-09-11",
+      "customer": "Jasmine Lee",
+      "product": "Iron",
+      "quantity": "8",
+      "net_amount": "600.00",
+      "gross_amount": "636.00"
+    },
+    {
+      "record_id": "IPH-0603",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-20",
+      "delivery_date": "2026-09-25",
+      "customer": "Thomas Lim",
+      "product": "Blender",
+      "quantity": "9",
+      "net_amount": "1161.00",
+      "gross_amount": "1230.66"
+    },
+    {
+      "record_id": "IPH-0604",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-13",
+      "delivery_date": "",
+      "customer": "Irfan Zulkifli",
+      "product": "Kettle",
+      "quantity": "12",
+      "net_amount": "1068.00",
+      "gross_amount": "1132.08"
+    },
+    {
+      "record_id": "IPH-0605",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-16",
+      "delivery_date": "2026-09-21",
+      "customer": "Thomas Lim",
+      "product": "Toaster",
+      "quantity": "7",
+      "net_amount": "455.00",
+      "gross_amount": "482.30"
+    },
+    {
+      "record_id": "IPH-0606",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-15",
+      "delivery_date": "",
+      "customer": "Liam Wong",
+      "product": "Toaster",
+      "quantity": "19",
+      "net_amount": "1235.00",
+      "gross_amount": "1309.10"
+    },
+    {
+      "record_id": "IPH-0607",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-04",
+      "delivery_date": "2026-09-08",
+      "customer": "Irfan Zulkifli",
+      "product": "Toaster",
+      "quantity": "9",
+      "net_amount": "585.00",
+      "gross_amount": "620.10"
+    },
+    {
+      "record_id": "IPH-0608",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-18",
+      "delivery_date": "",
+      "customer": "Chloe Teo",
+      "product": "Blender",
+      "quantity": "16",
+      "net_amount": "2064.00",
+      "gross_amount": "2187.84"
+    },
+    {
+      "record_id": "IPH-0609",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-13",
+      "delivery_date": "",
+      "customer": "Mei Ling Chua",
+      "product": "Toaster",
+      "quantity": "8",
+      "net_amount": "520.00",
+      "gross_amount": "551.20"
+    },
+    {
+      "record_id": "IPH-0610",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-16",
+      "delivery_date": "",
+      "customer": "Hafiz Osman",
+      "product": "Iron",
+      "quantity": "10",
+      "net_amount": "750.00",
+      "gross_amount": "795.00"
+    },
+    {
+      "record_id": "IPH-0611",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-08",
+      "delivery_date": "",
+      "customer": "Arjun Pillai",
+      "product": "Kettle",
+      "quantity": "16",
+      "net_amount": "1424.00",
+      "gross_amount": "1509.44"
+    },
+    {
+      "record_id": "IPH-0612",
+      "branch": "Ipoh",
+      "sale_date": "2026-09-24",
+      "delivery_date": "",
+      "customer": "Uma Devi",
+      "product": "Kettle",
+      "quantity": "7",
+      "net_amount": "623.00",
+      "gross_amount": "660.38"
+    }
+  ]
+}

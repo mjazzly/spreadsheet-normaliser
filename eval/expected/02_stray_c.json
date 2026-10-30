@@ -1,0 +1,156 @@
+{
+  "file": "02_stray_c.xlsx",
+  "case": "2",
+  "pass": 1,
+  "gate": null,
+  "header_row": 3,
+  "mapping": {
+    "Txn No": "record_id",
+    "Site": "branch",
+    "Txn Date": "sale_date",
+    "Delivered On": "delivery_date",
+    "Client": "customer",
+    "SKU Name": "product",
+    "Units": "quantity",
+    "Amount ex tax": "net_amount",
+    "Amount inc tax": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 10,
+  "rows_merged": 10,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 2,
+    "blanks": 0,
+    "totals": 2
+  },
+  "record_ids": [
+    "MLK-5013",
+    "MLK-5014",
+    "MLK-5015",
+    "MLK-5016",
+    "MLK-5017",
+    "MLK-5018",
+    "MLK-5019",
+    "MLK-5020",
+    "MLK-5021",
+    "MLK-5022"
+  ],
+  "rows": [
+    {
+      "record_id": "MLK-5013",
+      "branch": "Melaka",
+      "sale_date": "2026-09-24",
+      "delivery_date": "",
+      "customer": "Daniel Tan",
+      "product": "Kettle",
+      "quantity": "13",
+      "net_amount": "1157.00",
+      "gross_amount": "1226.42"
+    },
+    {
+      "record_id": "MLK-5014",
+      "branch": "Melaka",
+      "sale_date": "2026-09-14",
+      "delivery_date": "",
+      "customer": "Kavitha Nair",
+      "product": "Blender",
+      "quantity": "1",
+      "net_amount": "129.00",
+      "gross_amount": "136.74"
+    },
+    {
+      "record_id": "MLK-5015",
+      "branch": "Melaka",
+      "sale_date": "2026-09-17",
+      "delivery_date": "2026-09-18",
+      "customer": "Jasmine Lee",
+      "product": "Blender",
+      "quantity": "16",
+      "net_amount": "2064.00",
+      "gross_amount": "2187.84"
+    },
+    {
+      "record_id": "MLK-5016",
+      "branch": "Melaka",
+      "sale_date": "2026-09-15",
+      "delivery_date": "2026-09-19",
+      "customer": "Wei Jie Ng",
+      "product": "Blender",
+      "quantity": "18",
+      "net_amount": "2322.00",
+      "gross_amount": "2461.32"
+    },
+    {
+      "record_id": "MLK-5017",
+      "branch": "Melaka",
+      "sale_date": "2026-09-01",
+      "delivery_date": "",
+      "customer": "Daniel Tan",
+      "product": "Kettle",
+      "quantity": "15",
+      "net_amount": "1335.00",
+      "gross_amount": "1415.10"
+    },
+    {
+      "record_id": "MLK-5018",
+      "branch": "Melaka",
+      "sale_date": "2026-09-19",
+      "delivery_date": "",
+      "customer": "Wei Jie Ng",
+      "product": "Toaster",
+      "quantity": "4",
+      "net_amount": "260.00",
+      "gross_amount": "275.60"
+    },
+    {
+      "record_id": "MLK-5019",
+      "branch": "Melaka",
+      "sale_date": "2026-09-02",
+      "delivery_date": "2026-09-03",
+      "customer": "Priya Menon",
+      "product": "Iron",
+      "quantity": "6",
+      "net_amount": "450.00",
+      "gross_amount": "477.00"
+    },
+    {
+      "record_id": "MLK-5020",
+      "branch": "Melaka",
+      "sale_date": "2026-09-12",
+      "delivery_date": "",
+      "customer": "Priya Menon",
+      "product": "Blender",
+      "quantity": "12",
+      "net_amount": "1548.00",
+      "gross_amount": "1640.88"
+    },
+    {
+      "record_id": "MLK-5021",
+      "branch": "Melaka",
+      "sale_date": "2026-09-11",
+      "delivery_date": "2026-09-13",
+      "customer": "Kavitha Nair",
+      "product": "Fan",
+      "quantity": "19",
+      "net_amount": "2831.00",
+      "gross_amount": "3000.86"
+    },
+    {
+      "record_id": "MLK-5022",
+      "branch": "Melaka",
+      "sale_date": "2026-09-14",
+      "delivery_date": "",
+      "customer": "Daniel Tan",
+      "product": "Kettle",
+      "quantity": "19",
+      "net_amount": "1691.00",
+      "gross_amount": "1792.46"
+    }
+  ]
+}

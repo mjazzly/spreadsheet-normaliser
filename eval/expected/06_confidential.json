@@ -1,0 +1,47 @@
+{
+  "file": "06_confidential.xlsx",
+  "case": "6",
+  "pass": 1,
+  "gate": "confidential",
+  "header_row": 2,
+  "mapping": {
+    "Ref": "record_id",
+    "Branch": "branch",
+    "Sale Date": "sale_date",
+    "Delivered": "delivery_date",
+    "Customer": "customer",
+    "Item": "product",
+    "Qty": "quantity",
+    "Net": "net_amount",
+    "Gross": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 0,
+  "rows_merged": 0,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "KCH-3037",
+    "KCH-3038",
+    "KCH-3039",
+    "KCH-3040",
+    "KCH-3041",
+    "KCH-3042",
+    "KCH-3043",
+    "KCH-3044",
+    "KCH-3045",
+    "KCH-3046",
+    "KCH-3047",
+    "KCH-3048"
+  ],
+  "rows": []
+}

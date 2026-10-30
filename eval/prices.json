@@ -1,0 +1,5 @@
+{
+  "source": "Claude API prompt caching page, platform.claude.com/docs/en/build-with-claude/prompt-caching, read 25 Oct 2026. US dollars per million tokens. A model not listed here runs but records no cost.",
+  "claude-opus-5-5": { "input": 4.0, "output": 20.0, "cache_write_5m": 5.0, "cache_read": 0.20 },
+  "claude-haiku-5-5": { "input": 0.10, "output": 0.50, "cache_write_5m": 0.125, "cache_read": 0.01 }
+}

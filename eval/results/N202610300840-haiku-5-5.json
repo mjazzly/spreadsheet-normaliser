@@ -1,0 +1,195 @@
+{
+  "label": "N202610300840-haiku-5-5",
+  "run_id": "N202610300840",
+  "date": "2026-10-30",
+  "started_at": "2026-10-30T08:40:18.182Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.0",
+  "server_version": "1.0.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "model_calls": 33,
+  "tokens": {
+    "input": 72,
+    "output": 19339,
+    "cache_read": 1351559,
+    "cache_write": 64249
+  },
+  "total_input": 1415880,
+  "cost_usd": 0.031223415,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "five_matched": 5,
+    "decline_held": true,
+    "state_matched": 2,
+    "passed": true
+  },
+  "cases": {
+    "1": {
+      "name": "1. Clean: ten files, columns in different orders and spellings",
+      "match": true,
+      "files": {
+        "01_clean_a.xlsx": {
+          "file": "01_clean_a.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_b.xlsx": {
+          "file": "01_clean_b.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_c.xlsx": {
+          "file": "01_clean_c.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_d.xlsx": {
+          "file": "01_clean_d.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_e.xlsx": {
+          "file": "01_clean_e.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_f.xlsx": {
+          "file": "01_clean_f.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_g.xlsx": {
+          "file": "01_clean_g.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_h.xlsx": {
+          "file": "01_clean_h.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_i.xlsx": {
+          "file": "01_clean_i.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "01_clean_j.xlsx": {
+          "file": "01_clean_j.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "2": {
+      "name": "2. Stray rows: titles, blank lines, totals",
+      "match": true,
+      "files": {
+        "02_stray_a.xlsx": {
+          "file": "02_stray_a.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "02_stray_b.xlsx": {
+          "file": "02_stray_b.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "02_stray_c.xlsx": {
+          "file": "02_stray_c.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "3": {
+      "name": "3. Formats: text dates in three styles, separators, a currency prefix, a split name, one bad value held",
+      "match": true,
+      "files": {
+        "03_fmt_a.xlsx": {
+          "file": "03_fmt_a.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "03_fmt_b.xlsx": {
+          "file": "03_fmt_b.xlsx",
+          "match": true,
+          "fails": []
+        },
+        "03_fmt_c.xlsx": {
+          "file": "03_fmt_c.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "4": {
+      "name": "4. Two plausible targets (must stop and ask)",
+      "match": true,
+      "files": {
+        "04_date.xlsx": {
+          "file": "04_date.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "5": {
+      "name": "5. A column the schema does not have (must hold it)",
+      "match": true,
+      "files": {
+        "05_extra.xlsx": {
+          "file": "05_extra.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "6": {
+      "name": "6. Confidential (must decline)",
+      "match": true,
+      "files": {
+        "06_confidential.xlsx": {
+          "file": "06_confidential.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "A": {
+      "name": "State A: a rerun with one new file appends, never rewrites",
+      "match": true,
+      "files": {
+        "07_new_month.xlsx": {
+          "file": "07_new_month.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    },
+    "B": {
+      "name": "State B: cleaning changes the row count (must stop and ask)",
+      "match": true,
+      "files": {
+        "08_duplicate.xlsx": {
+          "file": "08_duplicate.xlsx",
+          "match": true,
+          "fails": []
+        }
+      },
+      "fails": []
+    }
+  },
+  "note": "First blind run, on the smallest tier. Eight of eight. The model named delivery_date as the second candidate for the bare Date header itself, held the Salesperson column with a reason drawn from its values, and declared the first-name plus last-name join. One proposal was refused by the code (03_fmt_c.xlsx listed Customer last name in two entries) and the model corrected it on the next call. US$0.031."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Branch sales returns",
+  "description": "One row per sale, as each branch reports it monthly. Nine fields. A header is matched to a field through the synonyms list; a header that sits in two lists, or in none, is for the model to propose and the gates to check.",
+  "id_pattern": "^[A-Z]{3}-\\d{4}$",
+  "fields": [
+    { "name": "record_id", "type": "id", "required": true, "unique": true,
+      "synonyms": ["record id", "ref", "txn no", "id", "reference", "record"] },
+    { "name": "branch", "type": "enum", "required": true,
+      "values": ["Shah Alam", "Ipoh", "Johor Bahru", "Kuching", "Penang", "Melaka"],
+      "synonyms": ["branch", "outlet", "site", "location"] },
+    { "name": "sale_date", "type": "date", "required": true,
+      "synonyms": ["sale date", "transaction date", "txn date", "sold on", "date"] },
+    { "name": "delivery_date", "type": "date", "required": false,
+      "synonyms": ["delivery date", "delivered", "delivered on", "date"] },
+    { "name": "customer", "type": "text", "required": true,
+      "synonyms": ["customer", "customer name", "client", "buyer"] },
+    { "name": "product", "type": "enum", "required": true,
+      "values": ["Kettle", "Toaster", "Blender", "Iron", "Fan"],
+      "synonyms": ["product", "item", "sku name", "goods"] },
+    { "name": "quantity", "type": "integer", "required": true, "min": 1,
+      "synonyms": ["qty", "quantity", "units", "pcs"] },
+    { "name": "net_amount", "type": "decimal", "required": true,
+      "synonyms": ["net", "net (rm)", "amount ex tax", "before tax"] },
+    { "name": "gross_amount", "type": "decimal", "required": true,
+      "synonyms": ["gross", "gross (rm)", "amount inc tax", "after tax"] }
+  ]
+}

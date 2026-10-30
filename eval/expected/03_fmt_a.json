@@ -1,0 +1,180 @@
+{
+  "file": "03_fmt_a.xlsx",
+  "case": "3",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "Ref": "record_id",
+    "Branch": "branch",
+    "Sale Date": "sale_date",
+    "Delivered": "delivery_date",
+    "Customer": "customer",
+    "Item": "product",
+    "Qty": "quantity",
+    "Net": "net_amount",
+    "Gross": "gross_amount"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "PEN-4013",
+    "PEN-4014",
+    "PEN-4015",
+    "PEN-4016",
+    "PEN-4017",
+    "PEN-4018",
+    "PEN-4019",
+    "PEN-4020",
+    "PEN-4021",
+    "PEN-4022",
+    "PEN-4023",
+    "PEN-4024"
+  ],
+  "rows": [
+    {
+      "record_id": "PEN-4013",
+      "branch": "Penang",
+      "sale_date": "2026-09-22",
+      "delivery_date": "",
+      "customer": "Priya Menon",
+      "product": "Fan",
+      "quantity": "8",
+      "net_amount": "1192.00",
+      "gross_amount": "1263.52"
+    },
+    {
+      "record_id": "PEN-4014",
+      "branch": "Penang",
+      "sale_date": "2026-09-13",
+      "delivery_date": "",
+      "customer": "Uma Devi",
+      "product": "Fan",
+      "quantity": "11",
+      "net_amount": "1639.00",
+      "gross_amount": "1737.34"
+    },
+    {
+      "record_id": "PEN-4015",
+      "branch": "Penang",
+      "sale_date": "2026-09-27",
+      "delivery_date": "2026-09-15",
+      "customer": "Mei Ling Chua",
+      "product": "Blender",
+      "quantity": "18",
+      "net_amount": "2322.00",
+      "gross_amount": "2461.32"
+    },
+    {
+      "record_id": "PEN-4016",
+      "branch": "Penang",
+      "sale_date": "2026-09-20",
+      "delivery_date": "2026-09-22",
+      "customer": "Daniel Tan",
+      "product": "Iron",
+      "quantity": "10",
+      "net_amount": "750.00",
+      "gross_amount": "795.00"
+    },
+    {
+      "record_id": "PEN-4017",
+      "branch": "Penang",
+      "sale_date": "2026-09-02",
+      "delivery_date": "2026-09-04",
+      "customer": "Zara Khalid",
+      "product": "Blender",
+      "quantity": "13",
+      "net_amount": "1677.00",
+      "gross_amount": "1777.62"
+    },
+    {
+      "record_id": "PEN-4018",
+      "branch": "Penang",
+      "sale_date": "2026-09-14",
+      "delivery_date": "",
+      "customer": "Nabil Hussin",
+      "product": "Kettle",
+      "quantity": "9",
+      "net_amount": "801.00",
+      "gross_amount": "849.06"
+    },
+    {
+      "record_id": "PEN-4019",
+      "branch": "Penang",
+      "sale_date": "2026-09-19",
+      "delivery_date": "2026-09-22",
+      "customer": "Ravi Kumar",
+      "product": "Blender",
+      "quantity": "7",
+      "net_amount": "903.00",
+      "gross_amount": "957.18"
+    },
+    {
+      "record_id": "PEN-4020",
+      "branch": "Penang",
+      "sale_date": "2026-09-18",
+      "delivery_date": "",
+      "customer": "Ravi Kumar",
+      "product": "Kettle",
+      "quantity": "7",
+      "net_amount": "623.00",
+      "gross_amount": "660.38"
+    },
+    {
+      "record_id": "PEN-4021",
+      "branch": "Penang",
+      "sale_date": "2026-09-12",
+      "delivery_date": "2026-09-13",
+      "customer": "Nabil Hussin",
+      "product": "Toaster",
+      "quantity": "7",
+      "net_amount": "455.00",
+      "gross_amount": "482.30"
+    },
+    {
+      "record_id": "PEN-4022",
+      "branch": "Penang",
+      "sale_date": "2026-09-08",
+      "delivery_date": "",
+      "customer": "Jasmine Lee",
+      "product": "Fan",
+      "quantity": "12",
+      "net_amount": "1788.00",
+      "gross_amount": "1895.28"
+    },
+    {
+      "record_id": "PEN-4023",
+      "branch": "Penang",
+      "sale_date": "2026-09-26",
+      "delivery_date": "2026-09-28",
+      "customer": "Nabil Hussin",
+      "product": "Toaster",
+      "quantity": "8",
+      "net_amount": "520.00",
+      "gross_amount": "551.20"
+    },
+    {
+      "record_id": "PEN-4024",
+      "branch": "Penang",
+      "sale_date": "2026-09-01",
+      "delivery_date": "",
+      "customer": "Yusuf Karim",
+      "product": "Iron",
+      "quantity": "6",
+      "net_amount": "450.00",
+      "gross_amount": "477.00"
+    }
+  ]
+}

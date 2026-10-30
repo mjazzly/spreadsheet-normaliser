@@ -1,0 +1,180 @@
+{
+  "file": "01_clean_a.xlsx",
+  "case": "1",
+  "pass": 1,
+  "gate": null,
+  "header_row": 1,
+  "mapping": {
+    "Branch": "branch",
+    "Qty": "quantity",
+    "Product": "product",
+    "Gross": "gross_amount",
+    "Sale Date": "sale_date",
+    "Record ID": "record_id",
+    "Net": "net_amount",
+    "Customer": "customer",
+    "Delivery Date": "delivery_date"
+  },
+  "joins": {},
+  "ambiguous": null,
+  "held_column": null,
+  "duplicate": null,
+  "rows_read": 12,
+  "rows_merged": 12,
+  "rows_held": 0,
+  "rows_removed": 0,
+  "held_rows": [],
+  "stray": {
+    "titles": 0,
+    "blanks": 0,
+    "totals": 0
+  },
+  "record_ids": [
+    "SHA-1001",
+    "SHA-1002",
+    "SHA-1003",
+    "SHA-1004",
+    "SHA-1005",
+    "SHA-1006",
+    "SHA-1007",
+    "SHA-1008",
+    "SHA-1009",
+    "SHA-1010",
+    "SHA-1011",
+    "SHA-1012"
+  ],
+  "rows": [
+    {
+      "record_id": "SHA-1001",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-11",
+      "delivery_date": "2026-09-14",
+      "customer": "Ravi Kumar",
+      "product": "Fan",
+      "quantity": "15",
+      "net_amount": "2235.00",
+      "gross_amount": "2369.10"
+    },
+    {
+      "record_id": "SHA-1002",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-06",
+      "delivery_date": "2026-09-07",
+      "customer": "Ravi Kumar",
+      "product": "Iron",
+      "quantity": "13",
+      "net_amount": "975.00",
+      "gross_amount": "1033.50"
+    },
+    {
+      "record_id": "SHA-1003",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-25",
+      "delivery_date": "",
+      "customer": "Daniel Tan",
+      "product": "Blender",
+      "quantity": "14",
+      "net_amount": "1806.00",
+      "gross_amount": "1914.36"
+    },
+    {
+      "record_id": "SHA-1004",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-18",
+      "delivery_date": "2026-09-22",
+      "customer": "Liam Wong",
+      "product": "Toaster",
+      "quantity": "4",
+      "net_amount": "260.00",
+      "gross_amount": "275.60"
+    },
+    {
+      "record_id": "SHA-1005",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-15",
+      "delivery_date": "2026-09-19",
+      "customer": "Liam Wong",
+      "product": "Fan",
+      "quantity": "16",
+      "net_amount": "2384.00",
+      "gross_amount": "2527.04"
+    },
+    {
+      "record_id": "SHA-1006",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-16",
+      "delivery_date": "",
+      "customer": "Kavitha Nair",
+      "product": "Toaster",
+      "quantity": "16",
+      "net_amount": "1040.00",
+      "gross_amount": "1102.40"
+    },
+    {
+      "record_id": "SHA-1007",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-02",
+      "delivery_date": "2026-09-03",
+      "customer": "Jasmine Lee",
+      "product": "Toaster",
+      "quantity": "8",
+      "net_amount": "520.00",
+      "gross_amount": "551.20"
+    },
+    {
+      "record_id": "SHA-1008",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-16",
+      "delivery_date": "2026-09-20",
+      "customer": "Chloe Teo",
+      "product": "Fan",
+      "quantity": "5",
+      "net_amount": "745.00",
+      "gross_amount": "789.70"
+    },
+    {
+      "record_id": "SHA-1009",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-07",
+      "delivery_date": "2026-09-09",
+      "customer": "Liam Wong",
+      "product": "Iron",
+      "quantity": "8",
+      "net_amount": "600.00",
+      "gross_amount": "636.00"
+    },
+    {
+      "record_id": "SHA-1010",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-20",
+      "delivery_date": "",
+      "customer": "Thomas Lim",
+      "product": "Kettle",
+      "quantity": "10",
+      "net_amount": "890.00",
+      "gross_amount": "943.40"
+    },
+    {
+      "record_id": "SHA-1011",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-05",
+      "delivery_date": "2026-09-06",
+      "customer": "Yusuf Karim",
+      "product": "Fan",
+      "quantity": "3",
+      "net_amount": "447.00",
+      "gross_amount": "473.82"
+    },
+    {
+      "record_id": "SHA-1012",
+      "branch": "Shah Alam",
+      "sale_date": "2026-09-06",
+      "delivery_date": "",
+      "customer": "Yusuf Karim",
+      "product": "Fan",
+      "quantity": "7",
+      "net_amount": "1043.00",
+      "gross_amount": "1105.58"
+    }
+  ]
+}
