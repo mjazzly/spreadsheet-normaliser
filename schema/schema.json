@@ -6,7 +6,7 @@
     { "name": "record_id", "type": "id", "required": true, "unique": true,
       "synonyms": ["record id", "ref", "txn no", "id", "reference", "record"] },
     { "name": "branch", "type": "enum", "required": true,
-      "values": ["Shah Alam", "Ipoh", "Johor Bahru", "Kuching", "Penang", "Melaka"],
+      "values": ["Central", "Harbour", "Riverside", "Hillside", "Westgate", "Northpoint"],
       "synonyms": ["branch", "outlet", "site", "location"] },
     { "name": "sale_date", "type": "date", "required": true,
       "synonyms": ["sale date", "transaction date", "txn date", "sold on", "date"] },
@@ -20,8 +20,8 @@
     { "name": "quantity", "type": "integer", "required": true, "min": 1,
       "synonyms": ["qty", "quantity", "units", "pcs"] },
     { "name": "net_amount", "type": "decimal", "required": true,
-      "synonyms": ["net", "net (rm)", "amount ex tax", "before tax"] },
+      "synonyms": ["net", "net value", "amount ex tax", "before tax"] },
     { "name": "gross_amount", "type": "decimal", "required": true,
-      "synonyms": ["gross", "gross (rm)", "amount inc tax", "after tax"] }
+      "synonyms": ["gross", "gross value", "amount inc tax", "after tax"] }
   ]
 }

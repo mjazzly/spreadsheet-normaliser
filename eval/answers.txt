@@ -1,1 +1,1 @@
-Date in 04_date.xlsx is the sale date; this branch records no deliveries. Keep one copy of IPH-0412 in 08_duplicate.xlsx.
+Date in 04_date.xlsx is the sale date; this branch records no deliveries. Keep one copy of HAR-0412 in 08_duplicate.xlsx.

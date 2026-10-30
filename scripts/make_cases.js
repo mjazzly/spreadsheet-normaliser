@@ -31,12 +31,12 @@ const pick = (arr) => arr[Math.floor(rand() * arr.length)];
 const between = (lo, hi) => lo + Math.floor(rand() * (hi - lo + 1));
 function shuffle(arr) { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-const BRANCH = { SHA: "Shah Alam", IPH: "Ipoh", JHB: "Johor Bahru", KCH: "Kuching", PEN: "Penang", MLK: "Melaka" };
+const BRANCH = { CEN: "Central", HAR: "Harbour", RIV: "Riverside", HIL: "Hillside", WST: "Westgate", NTH: "Northpoint" };
 const PRICE = { Kettle: 89, Toaster: 65, Blender: 129, Iron: 75, Fan: 149 };
-const CUSTOMERS = ["Aina Rahman", "Daniel Tan", "Farah Ismail", "Hafiz Osman", "Jasmine Lee", "Kavitha Nair", "Liam Wong",
-  "Mei Ling Chua", "Nabil Hussin", "Priya Menon", "Ravi Kumar", "Sara Abdullah", "Thomas Lim", "Uma Devi", "Wei Jie Ng",
+const CUSTOMERS = ["Alex Morgan", "Ben Carter", "Chloe Hart", "Daniel Reed", "Ella Price", "Finn Walsh", "Grace Ellis",
+  "Isaac Bell", "Jade Turner", "Kai Foster", "Laura Hayes", "Max Fisher", "Nina Brooks", "Owen Shaw", "Paige Ward",
   "Yusuf Karim", "Zara Khalid", "Arjun Pillai", "Chloe Teo", "Irfan Zulkifli"];
-const SALESPEOPLE = ["Azlan", "Bee Lin", "Chandran", "Dina"];
+const SALESPEOPLE = ["Avery", "Blake", "Casey", "Drew"];
 
 // header spellings per field; a bare "Date" is kept out of the pools on purpose (case 4 uses it)
 const POOL = {
@@ -47,8 +47,8 @@ const POOL = {
   customer: ["Customer", "Customer Name", "Client", "Buyer"],
   product: ["Product", "Item", "SKU Name", "Goods"],
   quantity: ["Qty", "Quantity", "Units", "Pcs"],
-  net_amount: ["Net", "Net (RM)", "Amount ex tax", "Before tax"],
-  gross_amount: ["Gross", "Gross (RM)", "Amount inc tax", "After tax"],
+  net_amount: ["Net", "Net value", "Amount ex tax", "Before tax"],
+  gross_amount: ["Gross", "Gross value", "Amount inc tax", "After tax"],
 };
 
 const iso = (y, m, d) => `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
@@ -80,8 +80,8 @@ const thousands = (s) => { const [a, b] = s.split("."); return a.replace(/\B(?=(
 // Each spec: name, the true rows, the header per field (or a split), the column order, how values
 // are rendered, and the stray rows around the data. The expected file is derived from the same spec.
 const specs = [];
-const CLEAN_CODES = ["SHA", "IPH", "JHB", "KCH", "PEN", "MLK", "SHA", "IPH", "JHB", "KCH"];
-const BASE = { SHA: 1001, IPH: 601, JHB: 2001, KCH: 3001, PEN: 4001, MLK: 5001 };
+const CLEAN_CODES = ["CEN", "HAR", "RIV", "HIL", "WST", "NTH", "CEN", "HAR", "RIV", "HIL"];
+const BASE = { CEN: 1001, HAR: 601, RIV: 2001, HIL: 3001, WST: 4001, NTH: 5001 };
 const next = { ...BASE };
 function take(code, n) { const s = next[code]; next[code] += n; return s; }
 
@@ -93,57 +93,57 @@ CLEAN_CODES.forEach((code, i) => {
 });
 
 // case 2: stray rows
-specs.push({ name: "02_stray_a.xlsx", case: "2", rows: makeRows("IPH", take("IPH", 15), 15, 9),
+specs.push({ name: "02_stray_a.xlsx", case: "2", rows: makeRows("HAR", take("HAR", 15), 15, 9),
   headers: { record_id: "Ref", branch: "Outlet", sale_date: "Sale Date", delivery_date: "Delivered", customer: "Customer", product: "Item", quantity: "Qty", net_amount: "Net", gross_amount: "Gross" },
-  order: FIELDS, render: {}, layout: { titles: ["Ipoh branch, September 2026 returns"], blankAfterTitle: 1, blankBeforeTotals: 1, totals: ["Total"] } });
-specs.push({ name: "02_stray_b.xlsx", case: "2", rows: makeRows("JHB", take("JHB", 12), 12, 9),
-  headers: { record_id: "Record ID", branch: "Branch", sale_date: "Transaction Date", delivery_date: "Delivery Date", customer: "Customer Name", product: "Product", quantity: "Quantity", net_amount: "Net (RM)", gross_amount: "Gross (RM)" },
+  order: FIELDS, render: {}, layout: { titles: ["Harbour branch, September 2026 returns"], blankAfterTitle: 1, blankBeforeTotals: 1, totals: ["Total"] } });
+specs.push({ name: "02_stray_b.xlsx", case: "2", rows: makeRows("RIV", take("RIV", 12), 12, 9),
+  headers: { record_id: "Record ID", branch: "Branch", sale_date: "Transaction Date", delivery_date: "Delivery Date", customer: "Customer Name", product: "Product", quantity: "Quantity", net_amount: "Net value", gross_amount: "Gross value" },
   order: FIELDS, render: {}, layout: { blankAfterDataRows: [4, 8], totals: ["TOTAL"] } });
-specs.push({ name: "02_stray_c.xlsx", case: "2", rows: makeRows("MLK", take("MLK", 10), 10, 9),
+specs.push({ name: "02_stray_c.xlsx", case: "2", rows: makeRows("NTH", take("NTH", 10), 10, 9),
   headers: { record_id: "Txn No", branch: "Site", sale_date: "Txn Date", delivery_date: "Delivered On", customer: "Client", product: "SKU Name", quantity: "Units", net_amount: "Amount ex tax", gross_amount: "Amount inc tax" },
-  order: FIELDS, render: {}, layout: { titles: ["Melaka outlet", "Returns for September"], totals: ["Subtotal", "Grand total"] } });
+  order: FIELDS, render: {}, layout: { titles: ["Northpoint outlet", "Returns for September"], totals: ["Subtotal", "Grand total"] } });
 
 // case 3: formats
-const fmtA = makeRows("PEN", take("PEN", 12), 12, 9);
+const fmtA = makeRows("WST", take("WST", 12), 12, 9);
 fmtA[2].sale_date = "2026-09-27"; // a day above 12, so DD/MM/YYYY is the only reading of the column
 specs.push({ name: "03_fmt_a.xlsx", case: "3", rows: fmtA,
   headers: { record_id: "Ref", branch: "Branch", sale_date: "Sale Date", delivery_date: "Delivered", customer: "Customer", product: "Item", quantity: "Qty", net_amount: "Net", gross_amount: "Gross" },
   order: FIELDS, render: { sale_date: dmy, delivery_date: dmy }, layout: {} });
-const fmtB = makeRows("KCH", take("KCH", 12), 12, 9);
+const fmtB = makeRows("HIL", take("HIL", 12), 12, 9);
 fmtB[6].quantity_bad = "n/a"; // the held value: fails integer, is never coerced
 specs.push({ name: "03_fmt_b.xlsx", case: "3", rows: fmtB,
-  headers: { record_id: "Reference", branch: "Outlet", sale_date: "Sold On", delivery_date: "Delivery Date", customer: "Buyer", product: "Goods", quantity: "Pcs", net_amount: "Net (RM)", gross_amount: "Gross (RM)" },
+  headers: { record_id: "Reference", branch: "Outlet", sale_date: "Sold On", delivery_date: "Delivery Date", customer: "Buyer", product: "Goods", quantity: "Pcs", net_amount: "Net value", gross_amount: "Gross value" },
   order: FIELDS, render: { sale_date: dMonY, delivery_date: dMonY, net_amount: thousands, gross_amount: thousands }, layout: {} });
-specs.push({ name: "03_fmt_c.xlsx", case: "3", rows: makeRows("SHA", take("SHA", 12), 12, 9),
+specs.push({ name: "03_fmt_c.xlsx", case: "3", rows: makeRows("CEN", take("CEN", 12), 12, 9),
   headers: { record_id: "ID", branch: "Location", sale_date: "Transaction Date", delivery_date: "Delivered On", customer: ["Customer first name", "Customer last name"], product: "Product", quantity: "Quantity", net_amount: "Before tax", gross_amount: "After tax" },
-  order: FIELDS, render: { sale_date: monDY, delivery_date: monDY, gross_amount: (s) => "RM " + thousands(s) }, layout: {} });
+  order: FIELDS, render: { sale_date: monDY, delivery_date: monDY, gross_amount: thousands }, layout: {} });
 
 // case 4: one date column that could be either date field; the branch records no deliveries
-specs.push({ name: "04_date.xlsx", case: "4", rows: makeRows("PEN", take("PEN", 12), 12, 9, { delivery: "none" }),
+specs.push({ name: "04_date.xlsx", case: "4", rows: makeRows("WST", take("WST", 12), 12, 9, { delivery: "none" }),
   headers: { record_id: "Ref", branch: "Outlet", sale_date: "Date", customer: "Customer", product: "Item", quantity: "Qty", net_amount: "Net", gross_amount: "Gross" },
   order: FIELDS.filter((f) => f !== "delivery_date"), render: {}, layout: {}, gate: "two_targets", ambiguous: { Date: ["sale_date", "delivery_date"] } });
 
 // case 5: a column the schema does not have
-specs.push({ name: "05_extra.xlsx", case: "5", rows: makeRows("JHB", take("JHB", 12), 12, 9).map((r) => ({ ...r, extra: pick(SALESPEOPLE) })),
+specs.push({ name: "05_extra.xlsx", case: "5", rows: makeRows("RIV", take("RIV", 12), 12, 9).map((r) => ({ ...r, extra: pick(SALESPEOPLE) })),
   headers: { record_id: "Record ID", branch: "Branch", sale_date: "Sale Date", delivery_date: "Delivery Date", customer: "Customer", product: "Product", quantity: "Qty", net_amount: "Net", gross_amount: "Gross", extra: "Salesperson" },
   order: [...FIELDS, "extra"], render: {}, layout: {}, heldColumn: "Salesperson" });
 
 // case 6: confidential in the first row
-specs.push({ name: "06_confidential.xlsx", case: "6", rows: makeRows("KCH", take("KCH", 12), 12, 9),
+specs.push({ name: "06_confidential.xlsx", case: "6", rows: makeRows("HIL", take("HIL", 12), 12, 9),
   headers: { record_id: "Ref", branch: "Branch", sale_date: "Sale Date", delivery_date: "Delivered", customer: "Customer", product: "Item", quantity: "Qty", net_amount: "Net", gross_amount: "Gross" },
-  order: FIELDS, render: {}, layout: { titles: ["CONFIDENTIAL: Kuching branch, do not circulate"] }, gate: "confidential" });
+  order: FIELDS, render: {}, layout: { titles: ["CONFIDENTIAL: Hillside branch, do not circulate"] }, gate: "confidential" });
 
 // state A: one new file on a second pass
-specs.push({ name: "07_new_month.xlsx", case: "A", pass: 2, rows: makeRows("SHA", take("SHA", 12), 12, 10),
+specs.push({ name: "07_new_month.xlsx", case: "A", pass: 2, rows: makeRows("CEN", take("CEN", 12), 12, 10),
   headers: { record_id: "Txn No", branch: "Site", sale_date: "Sold On", delivery_date: "Delivered On", customer: "Client", product: "Goods", quantity: "Units", net_amount: "Amount ex tax", gross_amount: "Amount inc tax" },
   order: shuffle(FIELDS), render: {}, layout: {} });
 
 // state B: a row repeated inside the file, so cleaning changes the row count
-const dup = makeRows("IPH", 409, 15, 10); // IPH-0409 to IPH-0423; data row 4 is IPH-0412
+const dup = makeRows("HAR", 409, 15, 10); // HAR-0409 to HAR-0423; data row 4 is HAR-0412
 dup[8] = { ...dup[3] };                    // data row 9 repeats data row 4 exactly
 specs.push({ name: "08_duplicate.xlsx", case: "B", pass: 2, rows: dup,
   headers: { record_id: "Ref", branch: "Outlet", sale_date: "Sale Date", delivery_date: "Delivered", customer: "Customer", product: "Item", quantity: "Qty", net_amount: "Net", gross_amount: "Gross" },
-  order: FIELDS, render: {}, layout: {}, gate: "row_count", duplicate: { id: "IPH-0412", keep_row: 4, drop_row: 9 } });
+  order: FIELDS, render: {}, layout: {}, gate: "row_count", duplicate: { id: "HAR-0412", keep_row: 4, drop_row: 9 } });
 
 // ---------- write one workbook from a spec ----------
 function columnsOf(spec) {

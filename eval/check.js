@@ -10,7 +10,7 @@ const FIELDS = ["record_id", "branch", "sale_date", "delivery_date", "customer",
 export const CASE_NAMES = {
   "1": "1. Clean: ten files, columns in different orders and spellings",
   "2": "2. Stray rows: titles, blank lines, totals",
-  "3": "3. Formats: text dates in three styles, separators, a currency prefix, a split name, one bad value held",
+  "3": "3. Formats: text dates in three styles, separators, a split name, one bad value held",
   "4": "4. Two plausible targets (must stop and ask)",
   "5": "5. A column the schema does not have (must hold it)",
   "6": "6. Confidential (must decline)",
